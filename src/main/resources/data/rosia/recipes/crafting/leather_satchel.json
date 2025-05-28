@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "XYX",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "rosia:satchel_part"
+    },
+    "Y": {
+      "tag": "forge:string"
+    }
+  },
+  "result": {
+    "item": "rosia:leather_satchel",
+    "count": 1
+  }
+}

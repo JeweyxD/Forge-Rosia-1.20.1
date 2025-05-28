@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "rosia:purple_steel_double_sheet"
+  },
+  "result": {
+    "item": "rosia:purple_steel_shield"
+  },
+  "tier": 6,
+  "rules": [
+    "upset_last",
+    "bend_second_last",
+    "bend_third_last"
+  ],
+  "apply_forging_bonus": true
+}

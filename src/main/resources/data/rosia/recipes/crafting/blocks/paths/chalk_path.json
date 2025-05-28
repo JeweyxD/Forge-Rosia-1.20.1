@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "YY ",
+    "ZZ "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:brick/chalk"
+    },
+    "Y": {
+      "tag": "tfc:mortar"
+    },
+    "Z": {
+      "item": "tfc:rock/bricks/chalk"
+    }
+  },
+  "result": {
+    "item": "rosia:chalk_path",
+    "count": 2
+  }
+}

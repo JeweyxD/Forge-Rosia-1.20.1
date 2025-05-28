@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "rosia:food/dairy_can",
+    "rosia:food/fruit_can",
+    "rosia:food/grain_can",
+    "rosia:food/protein_can",
+    "rosia:food/vegetables_can",
+    "rosia:food/soup_can"
+  ]
+}

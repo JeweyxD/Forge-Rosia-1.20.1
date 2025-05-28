@@ -1,0 +1,19 @@
+{
+  "name": "Tool Belt",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:tool_belt",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/tool_belt",
+      "text": "The $(thing)Tool Belt$() can hold up to five tools, helping to clear inventory space. Tool Belts are crafted with an $(thing)Unfinished Tool Belt$(), which is knapped from leather."
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "rosia:leather_knapping/unfinished_tool_belt",
+      "text": "Leather knapping recipe for an $(thing)Unfinished Tool Belt$()."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 18
+}

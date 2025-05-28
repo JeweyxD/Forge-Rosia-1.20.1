@@ -1,0 +1,6 @@
+{
+  "parent": "rosia:item/purple_steel_rifle",
+  "textures": {
+    "layer0": "rosia:item/rifle/purple_steel_rifle_charged"
+  }
+}

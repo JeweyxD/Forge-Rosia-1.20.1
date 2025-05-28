@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "YY ",
+    "ZZ "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:brick/rhyolite"
+    },
+    "Y": {
+      "tag": "tfc:mortar"
+    },
+    "Z": {
+      "item": "tfc:rock/bricks/rhyolite"
+    }
+  },
+  "result": {
+    "item": "rosia:rhyolite_path",
+    "count": 2
+  }
+}

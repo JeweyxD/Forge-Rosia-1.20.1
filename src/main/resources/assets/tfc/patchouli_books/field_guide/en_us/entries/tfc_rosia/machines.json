@@ -1,0 +1,59 @@
+{
+  "name": "Machines",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:auto_quern",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/auto_quern",
+      "text": "The $(thing)Auto-Quern$() is a machine used to automatically grind items into powders and dyes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "rosia:steel_grindstone",
+      "text": "The $(thing)Steel Grindstone$() is the tool used within the $(thing)Auto-Quern$(). Made on the anvil."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/extruding_machine",
+      "text": "The $(thing)Extruding Machine$() is a machine used to automatically form metal rods and wires. Requires metal that is hot enough to work."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "rosia:steel_machine_die",
+      "text": "The $(thing)Steel Machine Die$() is the tool used within the $(thing)Extruding Machine$(). Made on the anvil."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/rolling_machine",
+      "text": "The $(thing)Rolling Machine$() is a machine used to automatically form metal sheets. Requires metal that is hot enough to work."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "rosia:steel_rollers",
+      "text": "The $(thing)Steel Rollers$() are tools used within the $(thing)Rolling Machine$(). Made on the anvil."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/electric_loom",
+      "text": "The $(thing)Electric Loom$() is a machine used to automatically weave different kinds of string into cloth. Also used in making paper."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "rosia:steel_loom_parts",
+      "text": "The $(thing)Steel Loom Parts$() are components used within the $(thing)Electric Loom$(). Made on the anvil."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/scraping_machine",
+      "text": "The $(thing)Scraping Machine$() is a machine used to automatically scrape items such as leather and paper."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:metal/knife/wrought_iron",
+      "text": "$(thing)Knives$() are used within the $(thing)Scraping Machine$()."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 8
+}

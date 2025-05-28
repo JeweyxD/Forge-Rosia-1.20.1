@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:lava_basin"
+    },
+    "title": "Volcanic Exploitation",
+    "description": "Craft a lava basin",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:fire_box",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:lava_basin"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

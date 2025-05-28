@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:machine_frame"
+    },
+    "title": "Framed I tell you!",
+    "description": "Craft a machine frame",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:copper_wire",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:machine_frame"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

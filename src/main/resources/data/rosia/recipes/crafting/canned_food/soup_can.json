@@ -1,0 +1,44 @@
+{
+  "type": "tfc:extra_products_shapeless_crafting",
+  "extra_products": [{
+    "item": "tfc:ceramic/bowl"
+  }],
+  "recipe": {
+      "type": "tfc:advanced_shapeless_crafting",
+      "ingredients": [
+        {
+          "item": "rosia:tin_can"
+        },
+        {
+          "type": "tfc:not_rotten",
+          "ingredient": {
+            "tag": "tfc:soups"
+          }
+        }
+      ],
+      "result": {
+        "stack": {
+          "item": "rosia:food/soup_can",
+          "count": 1
+        },
+        "modifiers": [
+          {
+            "type": "tfc:meal",
+            "food": {
+              "hunger": 4,
+              "water": 0,
+              "saturation": 0,
+              "decay_modifier": 2.2
+            },
+            "portions": [
+              {
+                "nutrient_modifier": 0.9,
+                "water_modifier": 0.9,
+                "saturation_modifier": 0.9
+              }
+            ]
+          }
+        ]
+      }
+    }
+}

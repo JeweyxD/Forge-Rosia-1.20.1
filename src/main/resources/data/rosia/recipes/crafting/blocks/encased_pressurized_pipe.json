@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "XXX",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "rosia:pressurized_pipe"
+    },
+    "Y": {
+      "item": "rosia:invar_sheet"
+    }
+  },
+  "result": {
+    "item": "rosia:encased_pressurized_pipe",
+    "count": 3
+  }
+}

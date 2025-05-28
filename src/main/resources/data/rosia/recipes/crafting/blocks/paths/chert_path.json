@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "YY ",
+    "ZZ "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:brick/chert"
+    },
+    "Y": {
+      "tag": "tfc:mortar"
+    },
+    "Z": {
+      "item": "tfc:rock/bricks/chert"
+    }
+  },
+  "result": {
+    "item": "rosia:chert_path",
+    "count": 2
+  }
+}

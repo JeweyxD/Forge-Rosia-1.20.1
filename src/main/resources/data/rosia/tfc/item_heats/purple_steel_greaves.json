@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "rosia:purple_steel_greaves"
+  },
+  "heat_capacity": 19.5,
+  "forging_temperature": 1100,
+  "welding_temperature": 1300
+}

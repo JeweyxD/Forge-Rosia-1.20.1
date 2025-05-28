@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "YY ",
+    "ZZ "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:brick/schist"
+    },
+    "Y": {
+      "tag": "tfc:mortar"
+    },
+    "Z": {
+      "item": "tfc:rock/bricks/schist"
+    }
+  },
+  "result": {
+    "item": "rosia:schist_path",
+    "count": 2
+  }
+}

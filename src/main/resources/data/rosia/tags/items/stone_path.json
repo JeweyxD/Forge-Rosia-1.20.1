@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "rosia:andesite_path",
+    "rosia:basalt_path",
+    "rosia:chalk_path",
+    "rosia:chert_path",
+    "rosia:claystone_path",
+    "rosia:conglomerate_path",
+    "rosia:dacite_path",
+    "rosia:diorite_path",
+    "rosia:dolomite_path",
+    "rosia:gabbro_path",
+    "rosia:gneiss_path",
+    "rosia:granite_path",
+    "rosia:limestone_path",
+    "rosia:marble_path",
+    "rosia:phyllite_path",
+    "rosia:quartzite_path",
+    "rosia:rhyolite_path",
+    "rosia:schist_path",
+    "rosia:shale_path",
+    "rosia:slate_path"
+  ]
+}

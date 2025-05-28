@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:weak_purple_steel_ingot"
+    },
+    "title": "At the Cusp of Greatness",
+    "description": "Alloy together some weak purple steel",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:fire_box",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:weak_purple_steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

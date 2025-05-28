@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/copper"
+  },
+  "result": {
+    "item": "rosia:copper_wire",
+    "count": 4
+  },
+  "tier": 1,
+  "rules": [
+    "draw_last",
+    "draw_second_last",
+    "hit_third_last"
+  ]
+}

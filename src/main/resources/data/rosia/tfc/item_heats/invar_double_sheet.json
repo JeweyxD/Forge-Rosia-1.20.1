@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "rosia:invar_double_sheet"
+  },
+  "heat_capacity": 11.428,
+  "forging_temperature": 910,
+  "welding_temperature": 1200
+}

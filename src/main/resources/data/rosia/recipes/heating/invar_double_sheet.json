@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "rosia:invar_double_sheet"
+  },
+  "result_fluid": {
+    "fluid": "rosia:invar_fluid",
+    "amount": 400
+  },
+  "temperature": 1535
+}

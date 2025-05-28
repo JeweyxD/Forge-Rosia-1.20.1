@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "rosia:item/metal/tools/purple_steel_fishing_rod"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "tfc:cast": 1
+      },
+      "model": "rosia:item/purple_steel_fishing_rod_cast"
+    }
+  ]
+}

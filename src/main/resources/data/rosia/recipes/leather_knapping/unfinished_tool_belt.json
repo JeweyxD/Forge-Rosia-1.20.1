@@ -1,0 +1,14 @@
+{
+  "type": "tfc:knapping",
+  "knapping_type": "tfc:leather",
+  "pattern": [
+    "XXXXX",
+    "X   X",
+    "    X",
+    "X   X",
+    "XXXXX"
+  ],
+  "result": {
+    "item": "rosia:unfinished_tool_belt"
+  }
+}

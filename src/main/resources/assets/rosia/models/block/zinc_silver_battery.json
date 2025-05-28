@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "rosia:block/zinc_silver_battery/zinc_silver_battery_top",
+    "front": "rosia:block/zinc_silver_battery/zinc_silver_battery_side",
+    "side": "rosia:block/zinc_silver_battery/zinc_silver_battery_side",
+    "bottom": "rosia:block/machine_frame"
+  }
+}

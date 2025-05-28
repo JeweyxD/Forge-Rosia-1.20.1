@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "rosia:purple_steel_double_sheet"
+  },
+  "result": {
+    "item": "rosia:purple_steel_unfinished_helmet"
+  },
+  "tier": 6,
+  "rules": [
+    "hit_last",
+    "bend_second_last",
+    "bend_third_last"
+  ]
+}

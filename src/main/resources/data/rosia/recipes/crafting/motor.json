@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    "XZX",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "rosia:magnet"
+    },
+    "Y": {
+      "item": "rosia:copper_coil"
+    },
+    "Z": {
+      "item": "tfc:metal/rod/wrought_iron"
+    }
+  },
+  "result": {
+    "item": "rosia:motor",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:electric_forge"
+    },
+    "title": "Purple Blaze",
+    "description": "Craft an electric forge",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:rolling_machine",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:electric_forge"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

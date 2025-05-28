@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:zinc_silver_battery"
+    },
+    "title": "New Form Of Storage",
+    "description": "Craft a battery",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:mechanical_generator",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:nickel_iron_battery",
+              "rosia:zinc_silver_battery"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

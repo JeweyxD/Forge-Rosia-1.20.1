@@ -1,0 +1,16 @@
+{
+  "type": "tfc:alloy",
+  "result": "rosia:weak_purple_steel",
+  "contents": [
+    {
+      "metal": "tfc:blue_steel",
+      "min": 0.5,
+      "max": 0.5
+    },
+    {
+      "metal": "tfc:red_steel",
+      "min": 0.5,
+      "max": 0.5
+    }
+  ]
+}

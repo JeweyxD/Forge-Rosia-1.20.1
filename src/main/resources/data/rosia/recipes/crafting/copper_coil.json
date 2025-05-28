@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "rosia:copper_wire"
+    }
+  },
+  "result": {
+    "item": "rosia:copper_coil",
+    "count": 1
+  }
+}

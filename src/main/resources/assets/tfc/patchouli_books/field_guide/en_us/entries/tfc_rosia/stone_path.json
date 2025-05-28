@@ -1,0 +1,18 @@
+{
+  "name": "Stone Paths",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:andesite_path",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Stone Paths$() are a unique set of blocks that grant a small movement buff when standing on them.$(br2)For either roadways, short paths, or interior flooring, the speed increase is invaluable."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/paths/andesite_path",
+      "text": "There are 20 variants; one for each of the stone types."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 19
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "YZY",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:brick"
+    },
+    "Y": {
+      "tag": "tfc:mortar"
+    },
+    "Z": {
+      "tag": "forge:double_sheets/any_bronze"
+    }
+  },
+  "result": {
+    "item": "rosia:charcoal_kiln",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+      "   ",
+      "YYY",
+      " X "
+    ],
+    "key": {
+      "X": {
+        "item": "rosia:tin_can"
+      },
+      "Y": {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "tag": "tfc:foods/cooked_meats"
+        }
+      }
+    },
+    "result": {
+      "stack": {
+        "item": "rosia:food/protein_can",
+        "count": 1
+      },
+      "modifiers": [
+        {
+          "type": "tfc:meal",
+          "food": {
+            "hunger": 4,
+            "water": 0.5,
+            "saturation": 1,
+            "decay_modifier": 2
+          },
+          "portions": [
+            {
+              "nutrient_modifier": 0.7,
+              "water_modifier": 0.7,
+              "saturation_modifier": 0.7
+            }
+          ]
+        }
+      ]
+    },
+    "input_row": 0,
+    "input_column": 0
+
+}

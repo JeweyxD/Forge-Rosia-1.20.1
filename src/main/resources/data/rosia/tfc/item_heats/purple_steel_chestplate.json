@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "rosia:purple_steel_chestplate"
+  },
+  "heat_capacity": 26,
+  "forging_temperature": 1100,
+  "welding_temperature": 1300
+}

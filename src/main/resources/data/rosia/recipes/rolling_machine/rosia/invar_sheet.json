@@ -1,0 +1,12 @@
+{
+  "type": "rosia:rolling_machine",
+  "ingredients": [
+    {
+      "item": "rosia:invar_double_ingot"
+    }
+  ],
+  "output": {
+    "item": "rosia:invar_sheet",
+    "count": 1
+    }
+}

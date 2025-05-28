@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "YY ",
+    "ZZ "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:brick/gneiss"
+    },
+    "Y": {
+      "tag": "tfc:mortar"
+    },
+    "Z": {
+      "item": "tfc:rock/bricks/gneiss"
+    }
+  },
+  "result": {
+    "item": "rosia:gneiss_path",
+    "count": 2
+  }
+}

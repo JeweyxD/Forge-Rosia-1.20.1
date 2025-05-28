@@ -1,0 +1,12 @@
+{
+  "type": "rosia:rolling_machine",
+  "ingredients": [
+    {
+      "item": "tfc:metal/double_ingot/bismuth_bronze"
+    }
+  ],
+  "output": {
+    "item": "tfc:metal/sheet/bismuth_bronze",
+    "count": 1
+    }
+}

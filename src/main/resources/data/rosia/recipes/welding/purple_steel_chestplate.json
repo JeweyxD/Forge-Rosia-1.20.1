@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "rosia:purple_steel_unfinished_chestplate"
+  },
+  "second_input": {
+    "item": "rosia:purple_steel_double_sheet"
+  },
+  "tier": 5,
+  "result": {
+    "item": "rosia:purple_steel_chestplate"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "rosia:scraping_machine",
+  "ingredients": [
+    {
+      "item": "tfc:unrefined_paper"
+    }
+  ],
+  "output": {
+    "item": "minecraft:paper",
+    "count": 1
+    }
+}

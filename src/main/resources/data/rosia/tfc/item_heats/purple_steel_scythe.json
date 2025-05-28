@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "rosia:purple_steel_scythe"
+  },
+  "heat_capacity": 3.25,
+  "forging_temperature": 1300,
+  "welding_temperature": 1450
+}

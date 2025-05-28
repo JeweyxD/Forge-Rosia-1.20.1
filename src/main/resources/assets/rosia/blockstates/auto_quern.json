@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=east,on=false": {"model": "rosia:block/auto_quern/off", "y": 90},
+    "facing=north,on=false": {"model": "rosia:block/auto_quern/off"},
+    "facing=south,on=false": {"model": "rosia:block/auto_quern/off", "y": 180},
+    "facing=west,on=false": {"model": "rosia:block/auto_quern/off", "y": 270},
+    "facing=east,on=true": {"model": "rosia:block/auto_quern/on", "y": 90},
+    "facing=north,on=true": {"model": "rosia:block/auto_quern/on"},
+    "facing=south,on=true": {"model": "rosia:block/auto_quern/on", "y": 180},
+    "facing=west,on=true": {"model": "rosia:block/auto_quern/on", "y": 270}
+  }
+}

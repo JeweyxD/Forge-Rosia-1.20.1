@@ -1,0 +1,23 @@
+{
+  "type": "rosia:boiling_cauldron",
+  "ingredients": [
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "input_count": 1,
+  "input_fluid": {
+    "fluid": "minecraft:water",
+    "amount": 1000
+  },
+  "duration": 2000,
+  "temperature": 600,
+  "output": {
+    "item": "minecraft:yellow_dye",
+    "count": 0
+  },
+  "output_fluid": {
+    "fluid": "tfc:yellow_dye",
+    "amount": 1000
+  }
+}

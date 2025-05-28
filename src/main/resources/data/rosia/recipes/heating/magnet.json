@@ -1,0 +1,10 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "rosia:compressed_magnetite"
+  },
+  "result_item": {
+    "item": "rosia:magnet"
+  },
+  "temperature": 1228
+}

@@ -1,0 +1,12 @@
+{
+  "type": "rosia:rolling_machine",
+  "ingredients": [
+    {
+      "item": "rosia:purple_steel_double_ingot"
+    }
+  ],
+  "output": {
+    "item": "rosia:purple_steel_sheet",
+    "count": 1
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:purple_steel_ingot"
+    },
+    "title": "The Ultimate Metal",
+    "description": "Make your first purple steel ingot",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:weak_purple_steel",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:purple_steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

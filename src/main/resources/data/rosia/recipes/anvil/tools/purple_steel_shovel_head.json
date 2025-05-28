@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "rosia:purple_steel_ingot"
+  },
+  "result": {
+    "item": "rosia:purple_steel_shovel_head"
+  },
+  "tier": 6,
+  "rules": [
+    "punch_last",
+    "hit_not_last"
+  ],
+  "apply_forging_bonus": true
+}

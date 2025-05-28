@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "rosia:block/metal/smooth/invar"
+    }
+  ]
+}

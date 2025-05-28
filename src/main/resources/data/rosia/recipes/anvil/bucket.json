@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "rosia:purple_steel_double_sheet"
+  },
+  "result": {
+    "item": "minecraft:bucket"
+  },
+  "tier": 6,
+  "rules": [
+    "bend_last",
+    "bend_second_last",
+    "bend_third_last"
+  ]
+}

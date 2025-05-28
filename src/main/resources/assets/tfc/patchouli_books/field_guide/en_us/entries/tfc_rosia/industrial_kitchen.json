@@ -1,0 +1,46 @@
+{
+  "name": "Industrial Kitchen",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:canning_press",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Canning Food$() is another method of preservation. Combining ingredients or soups with a tin can, then sealing the can, makes food last longer.$(br2)Canned foods lose some nutritional value; so although they last longer, their nutrition wanes.$(br2)$(thing)Tin Cans$() are made on the anvil."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/canned_food/vegetables_can",
+      "recipe2": "rosia:crafting/canned_food/soup_can"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Canning Press$() is used to seal canned food items.$(br2)Unsealed cans will expire faster than sealed cans.",
+      "title": "Canning Press"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/canning_press"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Electric Grill$(), with 10 slots, is an upgrade to cooking over a $(thing)Firepit$().$(br2)The power draw is the same when cooking one item or ten, so bulk cooking is advised.",
+      "title": "Electric Grill"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/electric_grill"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Fridge$() is a long term food storage device. It has 9 slots for keeping items preserved and cannot hold canned food or other inventories; i.e. small vessels.$(br2)The Fridge will only consume power if there is an item inside.",
+      "title": "Fridge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/fridge",
+      "text": "The $(thing)Fridge$() requires $(thing)Purple Steel$(), making it challenging to obtain."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 14
+}

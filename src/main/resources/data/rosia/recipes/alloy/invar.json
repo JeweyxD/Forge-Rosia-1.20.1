@@ -1,0 +1,16 @@
+{
+  "type": "tfc:alloy",
+  "result": "rosia:invar",
+  "contents": [
+    {
+      "metal": "tfc:cast_iron",
+      "min": 0.60,
+      "max": 0.70
+    },
+    {
+      "metal": "tfc:nickel",
+      "min": 0.30,
+      "max": 0.40
+    }
+  ]
+}

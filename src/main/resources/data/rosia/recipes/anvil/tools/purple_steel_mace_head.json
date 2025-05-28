@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "rosia:purple_steel_double_ingot"
+  },
+  "result": {
+    "item": "rosia:purple_steel_mace_head"
+  },
+  "tier": 6,
+  "rules": [
+    "hit_last",
+    "shrink_not_last",
+    "bend_not_last"
+  ],
+  "apply_forging_bonus": true
+}

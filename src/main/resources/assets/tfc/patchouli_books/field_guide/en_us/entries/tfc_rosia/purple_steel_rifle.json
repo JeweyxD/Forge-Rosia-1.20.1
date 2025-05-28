@@ -1,0 +1,28 @@
+{
+  "name": "Purple Steel Rifle",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:purple_steel_rifle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "With the ever-present threats looming in the wilderness, advanced weaponry will give you the leg up you need. The $(thing)Purple Steel Rifle$() is a powerful ranged weapon that consumes $(thing)Rifle Ammo$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/purple_steel_rifle",
+      "text": "With higher range, accuracy, and damage, the rifle far outperforms the bow and crossbow."
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "rosia:anvil/bullets",
+      "text": "$(thing)Bullets$() are made from steel on the anvil. Missed shots can be collected to salvage the bullets."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/rifle_ammo",
+      "text": "$(thing)Rifle Ammo$() uses gunpowder to propel the projectile, making it an expensive, but efficient, method of dealing damage."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 16
+}

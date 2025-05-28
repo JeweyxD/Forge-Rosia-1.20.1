@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:extruding_machine"
+    },
+    "title": "Tight Fit",
+    "description": "Craft an extruding machine and machine die",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:battery",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:extruding_machine"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:steel_machine_die"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

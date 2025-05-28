@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=east,on=false": {"model": "rosia:block/rolling_machine/off", "y": 90},
+    "facing=north,on=false": {"model": "rosia:block/rolling_machine/off"},
+    "facing=south,on=false": {"model": "rosia:block/rolling_machine/off", "y": 180},
+    "facing=west,on=false": {"model": "rosia:block/rolling_machine/off", "y": 270},
+    "facing=east,on=true": {"model": "rosia:block/rolling_machine/on", "y": 90},
+    "facing=north,on=true": {"model": "rosia:block/rolling_machine/on"},
+    "facing=south,on=true": {"model": "rosia:block/rolling_machine/on", "y": 180},
+    "facing=west,on=true": {"model": "rosia:block/rolling_machine/on", "y": 270}
+  }
+}

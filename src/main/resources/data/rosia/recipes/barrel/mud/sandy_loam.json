@@ -1,0 +1,15 @@
+{
+  "type": "tfc:barrel_instant",
+  "input_item": {
+    "ingredient": {
+      "item": "tfc:dirt/sandy_loam"
+    }
+  },
+  "input_fluid": {
+    "ingredient": "minecraft:water",
+    "amount": 125
+  },
+  "output_item": {
+    "item": "tfc:mud/sandy_loam"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:auto_quern"
+    },
+    "title": "The Grind 2.0",
+    "description": "Craft an auto-quern and grindstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:battery",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:auto_quern"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:steel_grindstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

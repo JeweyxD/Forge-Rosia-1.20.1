@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "rosia:purple_steel_ingot"
+  },
+  "result": {
+    "item": "rosia:purple_steel_scythe_blade"
+  },
+  "tier": 6,
+  "rules": [
+    "hit_last",
+    "draw_second_last",
+    "bend_third_last"
+  ],
+  "apply_forging_bonus": true
+}

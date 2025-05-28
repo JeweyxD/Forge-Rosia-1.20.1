@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "rosia:block/fire_box/firebox_top_lit",
+    "front": "rosia:block/fire_box/firebox_front_lit",
+    "side": "rosia:block/fire_box/firebox_side",
+    "bottom": "rosia:block/fire_box/firebox_bottom"
+  }
+}

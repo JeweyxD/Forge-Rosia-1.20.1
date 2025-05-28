@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "rosia:invar_rod"
+  },
+  "heat_capacity": 1.429,
+  "forging_temperature": 910,
+  "welding_temperature": 1200
+}

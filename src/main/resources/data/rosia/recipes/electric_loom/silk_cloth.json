@@ -1,0 +1,13 @@
+{
+  "type": "rosia:electric_loom",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "input_count": 24,
+  "output": {
+    "item": "tfc:silk_cloth",
+    "count": 1
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:electric_loom"
+    },
+    "title": "Industrial Weaver",
+    "description": "Craft an electric loom and loom parts",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:battery",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:electric_loom"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:steel_loom_parts"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

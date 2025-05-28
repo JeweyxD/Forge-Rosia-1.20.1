@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "rosia:purple_steel_knife_blade"
+  },
+  "result_fluid": {
+    "fluid": "rosia:purple_steel_fluid",
+    "amount": 100
+  },
+  "temperature": 1549
+}

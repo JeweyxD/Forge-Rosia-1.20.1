@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:rolling_machine"
+    },
+    "title": "Roll Out",
+    "description": "Craft a rolling machine and rollers",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:battery",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:rolling_machine"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:steel_rollers"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

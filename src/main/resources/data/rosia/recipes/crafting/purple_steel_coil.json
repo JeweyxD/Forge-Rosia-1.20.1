@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "rosia:purple_steel_wire"
+    }
+  },
+  "result": {
+    "item": "rosia:purple_steel_coil",
+    "count": 1
+  }
+}

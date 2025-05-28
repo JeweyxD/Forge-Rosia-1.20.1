@@ -1,0 +1,43 @@
+{
+  "name": "Purple Steel",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:purple_steel_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Purple Steel$() is the ultimate metal. An $(l:mechanics/crucible#advanced_alloying)Alloy$() consisting of $(thing)Blue Steel$() and $(thing)Red Steel$(), Purple Steel can be cast into ingots, welded into double ingots, and worked into sheets for crafting. Purple Steel is the strongest metal; mastering both hot and cold temperatures, and bolstering the highest durability."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "rosia:weak_purple_steel_ingot",
+      "title": "Weak Purple Steel",
+      "link_recipes": false,
+      "text": "$(br)$(bold)Requirements:$()$(br)$(li)50 % : $(thing)Blue Steel$()$(li)50 % : $(thing)Red Steel$()$(br2) $(br2)First, blue and red steel must be alloyed together to make $(thing)Weak Purple Steel$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "rosia:purple_steel_ingot",
+      "title": "Purple Steel",
+      "link_recipes": false,
+      "text": "In the $(l:mechanics/blast_furnace)Blast Furnace$(), combine $(thing)Weak Purple Steel$(), $(thing)Graphite Powder$(), and $(thing)Charcoal$().$(br2)The resultant $(thing)Purple Steel$() will be the strongest metal specimen obtainable by mortal hands."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Purple Steel$() is a very sturdy metal, and as such, cannot be easily manipulated. Sheets, rods, and wires are only obtainable through the strength of machines. All other processes are completed on a $(l:mechanics/anvils)Tier VI Anvil$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "rosia:purple_steel_pickaxe",
+      "title": "Purple Steel Armaments",
+      "link_recipes": false,
+      "text": "$(thing)Purple Steel$() worked into tools, weapons, and armor create items with high durability, efficiency, damage, and protection."
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "rosia:anvil/bucket",
+      "text": "Additionally, $(thing)Purple Steel$() can be forged into one of the most sought after items in the game... a $(thing)Bucket$()."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 10
+}

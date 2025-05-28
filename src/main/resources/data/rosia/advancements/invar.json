@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:invar_ingot"
+    },
+    "title": "Metal Backbone",
+    "description": "Alloy together some invar",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:invar_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

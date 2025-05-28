@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "YZY",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "rosia:invar_sheet"
+    },
+    "Y": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "Z": {
+      "item": "rosia:copper_coil"
+    }
+  },
+  "result": {
+    "item": "rosia:machine_frame",
+    "count": 2
+  }
+}

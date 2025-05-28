@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/rod/steel"
+  },
+  "result": {
+    "item": "rosia:bullets",
+    "count": 8
+  },
+  "tier": 4,
+  "rules": [
+    "punch_last",
+    "punch_second_last",
+    "punch_not_last"
+  ]
+}

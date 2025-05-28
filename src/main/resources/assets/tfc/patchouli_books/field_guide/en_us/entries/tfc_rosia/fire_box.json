@@ -1,0 +1,30 @@
+{
+  "name": "Fire Box",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:fire_box",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Fire Box$() is a device similar to the $(thing)Charcoal Forge$(); used to burn fuel to produce heat. There are, however, several differences between the two. The Fire Box has a higher efficiency, granting a bonus $(thing)10%$() on burn time. Additionally, it can consume logs as fuel, which give a byproduct of wood ash."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/fire_box",
+      "text": "The $(thing)Fire Box$() is made with fire bricks and a $(l:mechanics/crucible)Crucible$().$(br2)Light with a Firestarter."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Fire Box does not require a chimney to operate.$(br2)A $(l:mechanics/bellows)Bellows$() can be placed adjacent to the Fire Box, in order to increase the maximum temperature it can reach.$(br2)The Fire Box cannot heat items on its own; however, its usefulness when combined with a heat-consuming device, like a $(l:mechanics/crucible)Crucible$() or $(thing)Steam Generator$(), is unmatched."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "rosia:textures/book/fire_box_book_gui.png"
+      ],
+      "text": "The Fire Box's interface.",
+      "border": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 4
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "rosia:block/path_block/marble_path" }
+  }
+}

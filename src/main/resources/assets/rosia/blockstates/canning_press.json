@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=east": {"model": "rosia:block/canning_press", "y": 90},
+    "facing=north": {"model": "rosia:block/canning_press"},
+    "facing=south": {"model": "rosia:block/canning_press", "y": 180},
+    "facing=west": {"model": "rosia:block/canning_press", "y": 270}
+  }
+}

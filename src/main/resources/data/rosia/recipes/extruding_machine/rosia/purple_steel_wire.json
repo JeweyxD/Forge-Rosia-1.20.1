@@ -1,0 +1,12 @@
+{
+  "type": "rosia:extruding_machine",
+  "ingredients": [
+    {
+      "item": "rosia:purple_steel_rod"
+    }
+  ],
+  "output": {
+    "item": "rosia:purple_steel_wire",
+    "count": 2
+    }
+}

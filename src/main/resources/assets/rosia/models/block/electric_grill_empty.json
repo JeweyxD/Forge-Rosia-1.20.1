@@ -1,0 +1,6 @@
+{
+  "parent": "rosia:block/empty",
+  "textures": {
+    "particle": "rosia:block/electric_grill"
+  }
+}

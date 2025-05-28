@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "WZW",
+    "VYV"
+  ],
+  "key": {
+    "V": {
+      "item": "rosia:copper_coil"
+    },
+    "W": {
+      "item": "rosia:invar_rod"
+    },
+    "X": {
+      "item": "rosia:motor"
+    },
+    "Y": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "Z": {
+      "item": "rosia:machine_frame"
+    }
+  },
+  "result": {
+    "item": "rosia:scraping_machine",
+    "count": 1
+  }
+}

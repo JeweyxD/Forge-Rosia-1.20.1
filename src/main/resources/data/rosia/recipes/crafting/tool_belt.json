@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "XYZ",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:metal/ingot/wrought_iron"
+    },
+    "Y": {
+      "item": "rosia:unfinished_tool_belt"
+    },
+    "Z": {
+      "tag": "forge:string"
+    }
+  },
+  "result": {
+    "item": "rosia:tool_belt",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "rosia:extruding_machine",
+  "ingredients": [
+    {
+      "item": "tfc:metal/rod/copper"
+    }
+  ],
+  "output": {
+    "item": "rosia:copper_wire",
+    "count": 2
+    }
+}

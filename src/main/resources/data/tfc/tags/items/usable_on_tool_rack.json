@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "rosia:steel_grindstone",
+    "rosia:steel_machine_die",
+    "rosia:steel_rollers",
+    "rosia:steel_loom_parts",
+
+    "rosia:purple_steel_rifle",
+    "rosia:purple_steel_tuyere",
+    "rosia:purple_steel_fishing_rod",
+    "rosia:purple_steel_pickaxe",
+    "rosia:purple_steel_propick",
+    "rosia:purple_steel_axe",
+    "rosia:purple_steel_shovel",
+    "rosia:purple_steel_hoe",
+    "rosia:purple_steel_chisel",
+    "rosia:purple_steel_hammer",
+    "rosia:purple_steel_saw",
+    "rosia:purple_steel_javelin",
+    "rosia:purple_steel_sword",
+    "rosia:purple_steel_mace",
+    "rosia:purple_steel_knife",
+    "rosia:purple_steel_scythe",
+    "rosia:purple_steel_shears",
+    "rosia:purple_steel_shield"
+  ]
+}

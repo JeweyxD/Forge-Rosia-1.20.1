@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "rosia:invar_double_ingot"
+  },
+  "heat_capacity": 5.714,
+  "forging_temperature": 910,
+  "welding_temperature": 1200
+}

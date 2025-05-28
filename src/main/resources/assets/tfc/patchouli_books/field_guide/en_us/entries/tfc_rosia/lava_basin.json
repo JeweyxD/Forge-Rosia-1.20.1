@@ -1,0 +1,29 @@
+{
+  "name": "Lava Basin",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:lava_basin",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Lava Basin$() is a device similar to the $(thing)Fire Box$(); it is used to burn fuel to produce heat. In this instance, $(thing)Lava$() is used as fuel.$(br2)The Lava Basin can hold 1000mB, or 1 bucket, of lava. Each 100mB of lava will last 2 hours and will heat to $(bold)White$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/lava_basin",
+      "text": "The $(thing)Lava Basin$() is made with fire bricks and a blue steel double sheet.$(br2)Once lava is in the tank, it will start to be consumed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Lava Basin$() does not require a chimney to operate. Furthermore, a $(l:mechanics/bellows)Bellows$() has no effect on the temperature.$(br2)Similar to the Fire Box, it cannot heat items on its own; its usefulness comes when paired with a heat-consuming device, like a $(l:mechanics/crucible)Crucible$() or $(thing)Steam Generator$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:barrier",
+      "title": "Maintenance",
+      "link_recipes": false,
+      "text": "As the $(thing)Lava Basin$() consumes fuel, it will accumulate a layer of slag. As the slag builds up, the maximum operating temperature will lower by $(thing)5°$() per 100mB.$(br2)To maintain its efficiency, click the $(thing)Empty Slag$() button to remove the build-up."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 9
+}

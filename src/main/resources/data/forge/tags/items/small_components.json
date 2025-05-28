@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "rosia:copper_wire",
+    "rosia:copper_coil",
+    "rosia:compressed_magnetite",
+    "rosia:magnet",
+    "rosia:satchel_part",
+    "rosia:purple_steel_wire",
+    "rosia:purple_steel_coil",
+    "rosia:bullets"
+  ]
+}

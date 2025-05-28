@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "rosia:block/electric_forge/electric_forge_top_lit",
+    "front": "rosia:block/electric_forge/electric_forge_front_lit",
+    "side": "rosia:block/electric_forge/electric_forge_side_lit",
+    "bottom": "rosia:block/machine_frame"
+  }
+}

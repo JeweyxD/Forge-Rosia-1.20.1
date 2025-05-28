@@ -1,0 +1,17 @@
+{
+  "name": "Iron Supports",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:iron_support",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Iron Supports$() are a stronger type of support compared to wood.$(br2)Just like wood supports, only $(thing)Horizontal Support Beams$() cause nearby blocks to be $(thing)Supported$(). Any block within a $(bold)11 x 7 x 11$() area centered on a horizontal support beam is considered $(thing)Supported$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/iron_support"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 20
+}

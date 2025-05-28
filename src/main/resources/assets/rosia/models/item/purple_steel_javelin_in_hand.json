@@ -1,0 +1,6 @@
+{
+  "parent": "item/trident_in_hand",
+  "textures": {
+    "particle": "rosia:item/metal/tools/purple_steel_javelin"
+  }
+}

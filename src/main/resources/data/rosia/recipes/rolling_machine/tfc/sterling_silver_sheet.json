@@ -1,0 +1,12 @@
+{
+  "type": "rosia:rolling_machine",
+  "ingredients": [
+    {
+      "item": "tfc:metal/double_ingot/sterling_silver"
+    }
+  ],
+  "output": {
+    "item": "tfc:metal/sheet/sterling_silver",
+    "count": 1
+    }
+}

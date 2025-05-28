@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "rosia:invar_sheet"
+  },
+  "second_input": {
+    "item": "rosia:invar_sheet"
+  },
+  "tier": 2,
+  "result": {
+    "item": "rosia:invar_double_sheet"
+  }
+}

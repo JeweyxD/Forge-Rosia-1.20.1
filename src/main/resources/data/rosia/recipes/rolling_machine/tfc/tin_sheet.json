@@ -1,0 +1,12 @@
+{
+  "type": "rosia:rolling_machine",
+  "ingredients": [
+    {
+      "item": "tfc:metal/double_ingot/tin"
+    }
+  ],
+  "output": {
+    "item": "tfc:metal/sheet/tin",
+    "count": 1
+    }
+}

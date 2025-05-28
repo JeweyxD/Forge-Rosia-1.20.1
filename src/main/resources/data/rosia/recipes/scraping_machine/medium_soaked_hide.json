@@ -1,0 +1,12 @@
+{
+  "type": "rosia:scraping_machine",
+  "ingredients": [
+    {
+      "item": "tfc:medium_soaked_hide"
+    }
+  ],
+  "output": {
+    "item": "tfc:medium_scraped_hide",
+    "count": 1
+    }
+}

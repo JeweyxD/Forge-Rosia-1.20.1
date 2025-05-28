@@ -1,0 +1,13 @@
+{
+  "type": "rosia:electric_loom",
+  "ingredients": [
+    {
+      "item": "tfc:wool_cloth"
+    }
+  ],
+  "input_count": 4,
+  "output": {
+    "item": "minecraft:white_wool",
+    "count": 8
+    }
+}

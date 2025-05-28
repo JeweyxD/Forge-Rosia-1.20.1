@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "rosia:block/charcoal_kiln/charcoal_kiln_side",
+    "front": "rosia:block/charcoal_kiln/charcoal_kiln_front",
+    "side": "rosia:block/charcoal_kiln/charcoal_kiln_side",
+    "bottom": "rosia:block/charcoal_kiln/charcoal_kiln_side"
+  }
+}

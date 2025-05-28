@@ -1,0 +1,23 @@
+{
+  "type": "rosia:boiling_cauldron",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "input_count": 0,
+  "input_fluid": {
+    "fluid": "tfc:salt_water",
+    "amount": 250
+  },
+  "duration": 4000,
+  "temperature": 600,
+  "output": {
+    "item": "tfc:powder/salt",
+    "count": 1
+  },
+  "output_fluid": {
+    "fluid": "tfc:salt_water",
+    "amount": 0
+  }
+}

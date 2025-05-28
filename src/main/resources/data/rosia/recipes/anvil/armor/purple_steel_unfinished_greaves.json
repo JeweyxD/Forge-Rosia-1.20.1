@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "rosia:purple_steel_double_sheet"
+  },
+  "result": {
+    "item": "rosia:purple_steel_unfinished_greaves"
+  },
+  "tier": 6,
+  "rules": [
+    "bend_any",
+    "draw_any",
+    "hit_any"
+  ]
+}

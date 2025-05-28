@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:electric_grill"
+    },
+    "title": "Backyard BBQ",
+    "description": "Craft an electric grill",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:canning_press",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:electric_grill"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

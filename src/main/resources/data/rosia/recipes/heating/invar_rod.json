@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "rosia:invar_rod"
+  },
+  "result_fluid": {
+    "fluid": "rosia:invar_fluid",
+    "amount": 50
+  },
+  "temperature": 1535
+}

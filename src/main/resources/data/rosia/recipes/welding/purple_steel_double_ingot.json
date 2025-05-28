@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "rosia:purple_steel_ingot"
+  },
+  "second_input": {
+    "item": "rosia:purple_steel_ingot"
+  },
+  "tier": 6,
+  "result": {
+    "item": "rosia:purple_steel_double_ingot"
+  }
+}

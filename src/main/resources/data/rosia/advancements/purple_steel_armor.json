@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:purple_steel_chestplate"
+    },
+    "title": "Untouchable",
+    "description": "Create a full set of purple steel armor, a sword, and a shield",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:purple_steel",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:purple_steel_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:purple_steel_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:purple_steel_greaves"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:purple_steel_boots"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:purple_steel_shield"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:purple_steel_sword"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

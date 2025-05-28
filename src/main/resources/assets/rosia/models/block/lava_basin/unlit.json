@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "rosia:block/lava_basin/lava_basin_top",
+    "front": "rosia:block/lava_basin/lava_basin_front",
+    "side": "rosia:block/lava_basin/lava_basin_side",
+    "bottom": "rosia:block/lava_basin/lava_basin_bottom"
+  }
+}

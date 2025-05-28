@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "rosia:invar_fluid",
+    "rosia:invar_fluid_flowing"
+  ]
+}

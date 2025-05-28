@@ -1,0 +1,9 @@
+{
+  "tier": 3,
+  "fluid": "rosia:weak_purple_steel_fluid",
+  "melt_temperature": 1548,
+  "specific_heat_capacity": 0.009,
+  "ingots": {
+    "item": "rosia:weak_purple_steel_ingot"
+  }
+  }

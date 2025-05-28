@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#tfc:log_pile_logs",
+    "#tfc:forge_fuel"
+  ]
+}

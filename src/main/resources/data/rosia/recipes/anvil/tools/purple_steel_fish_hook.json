@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "rosia:purple_steel_sheet"
+  },
+  "result": {
+    "item": "rosia:purple_steel_fish_hook"
+  },
+  "tier": 6,
+  "rules": [
+    "draw_not_last",
+    "bend_any",
+    "hit_any"
+  ],
+  "apply_forging_bonus": true
+}

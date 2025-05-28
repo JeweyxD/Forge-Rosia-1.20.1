@@ -1,0 +1,12 @@
+{
+  "type": "rosia:rolling_machine",
+  "ingredients": [
+    {
+      "item": "tfc:metal/double_ingot/brass"
+    }
+  ],
+  "output": {
+    "item": "tfc:metal/sheet/brass",
+    "count": 1
+    }
+}

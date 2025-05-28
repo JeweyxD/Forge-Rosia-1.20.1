@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rosia:invar_ingot",
+    "rosia:invar_double_ingot",
+    "rosia:invar_sheet",
+    "rosia:invar_double_sheet",
+    "rosia:invar_rod"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/copper"
+  },
+  "result": {
+    "item": "rosia:power_conduit",
+    "count": 8
+  },
+  "tier": 3,
+  "rules": [
+    "draw_last",
+    "bend_not_last"
+  ]
+}

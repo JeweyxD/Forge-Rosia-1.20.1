@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X W",
+    "ZXY",
+    " ZZ"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:flint"
+    },
+    "X": {
+      "item": "rosia:purple_steel_tuyere"
+    },
+    "Y": {
+      "item": "tfc:metal/rod/steel"
+    },
+    "Z": {
+      "tag": "tfc:lumber"
+    }
+  },
+  "result": {
+    "item": "rosia:purple_steel_rifle",
+    "count": 1
+  }
+}

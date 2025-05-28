@@ -1,0 +1,17 @@
+{
+  "name": "Electric Lantern",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:electric_lantern",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Electric Lantern$() is a powered light source.$(br2)Consumes 1 FE/Second. Can be powered from the top or bottom of the lantern. Right Click to toggle ON/OFF."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/electric_lantern"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 12
+}

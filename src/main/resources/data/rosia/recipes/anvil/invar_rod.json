@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "rosia:invar_ingot"
+  },
+  "result": {
+    "item": "rosia:invar_rod",
+    "count": 2
+  },
+  "tier": 3,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

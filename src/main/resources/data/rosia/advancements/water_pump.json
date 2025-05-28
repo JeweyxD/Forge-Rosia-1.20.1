@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:water_pump"
+    },
+    "title": "Pump It Up",
+    "description": "Craft a water pump",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:mechanical_generator",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:water_pump"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

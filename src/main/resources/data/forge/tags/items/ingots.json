@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/invar",
+    "#forge:ingots/purple_steel",
+    "#forge:ingots/weak_purple_steel"
+  ]
+}

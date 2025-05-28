@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:andesite_path"
+    },
+    "title": "On the Road Again",
+    "description": "Move quicker with stone paths",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "rosia:stone_path"
+          }
+        ]
+      }
+    }
+  }
+}

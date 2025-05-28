@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "rosia:purple_steel_mace"
+  },
+  "heat_capacity": 6.5,
+  "forging_temperature": 1300,
+  "welding_temperature": 1450
+}

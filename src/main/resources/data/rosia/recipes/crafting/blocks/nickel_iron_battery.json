@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "UYU",
+    "WZX",
+    " V "
+  ],
+  "key": {
+    "U": {
+      "item": "tfc:metal/rod/steel"
+    },
+    "V": {
+      "item": "rosia:invar_sheet"
+    },
+    "W": {
+      "item": "tfc:metal/sheet/nickel"
+    },
+    "X": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "Y": {
+      "item": "rosia:machine_frame"
+    },
+    "Z": {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "tfc:lye",
+        "amount": 1000
+      }
+    }
+  },
+  "result": {
+    "item": "rosia:nickel_iron_battery",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "rosia:block/stirling_engine/stirling_engine_top",
+    "front": "rosia:block/stirling_engine/stirling_engine_side",
+    "side": "rosia:block/stirling_engine/stirling_engine_side",
+    "bottom": "rosia:block/stirling_engine/stirling_engine_top"
+  }
+}

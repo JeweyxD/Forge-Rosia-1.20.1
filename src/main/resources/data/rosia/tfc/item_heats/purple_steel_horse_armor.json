@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "rosia:purple_steel_horse_armor"
+  },
+  "heat_capacity": 38,
+  "forging_temperature": 1300,
+  "welding_temperature": 1450
+}

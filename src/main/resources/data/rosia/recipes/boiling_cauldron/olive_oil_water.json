@@ -1,0 +1,23 @@
+{
+  "type": "rosia:boiling_cauldron",
+  "ingredients": [
+    {
+      "item": "tfc:olive_paste"
+    }
+  ],
+  "input_count": 5,
+  "input_fluid": {
+    "fluid": "minecraft:water",
+    "amount": 1000
+  },
+  "duration": 2000,
+  "temperature": 300,
+  "output": {
+    "item": "tfc:olive_paste",
+    "count": 0
+  },
+  "output_fluid": {
+    "fluid": "tfc:olive_oil_water",
+    "amount": 1000
+  }
+}

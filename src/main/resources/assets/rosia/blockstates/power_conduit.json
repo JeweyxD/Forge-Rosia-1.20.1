@@ -1,0 +1,130 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "extract": false
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_center"
+      }
+    },
+    {
+      "when": {
+        "extract": true
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_center_extract"
+      }
+    },
+    {
+      "when": {
+        "north": true
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_on",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "north": false
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_off",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "south": true
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_on",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "south": false
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_off",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "east": true
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_on",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "east": false
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_off",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "west": true
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_on",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": false
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_off",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "down": true
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_on"
+      }
+    },
+    {
+      "when": {
+        "down": false
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_off"
+      }
+    },
+    {
+      "when": {
+        "up": true
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_on",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "up": false
+      },
+      "apply": {
+        "model": "rosia:block/power_conduit/power_conduit_off",
+        "x": 180
+      }
+    }
+  ]
+}

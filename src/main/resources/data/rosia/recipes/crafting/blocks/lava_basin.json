@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YXY",
+    "YZY",
+    "WVW"
+  ],
+  "key": {
+    "V": {
+      "tag": "forge:stone"
+    },
+    "W": {
+      "item": "tfc:fire_bricks"
+    },
+    "X": {
+      "item": "rosia:invar_sheet"
+    },
+    "Y": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "Z": {
+      "item": "tfc:metal/double_sheet/blue_steel"
+    }
+  },
+  "result": {
+    "item": "rosia:lava_basin",
+    "count": 1
+  }
+}

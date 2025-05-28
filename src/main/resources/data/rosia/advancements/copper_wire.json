@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:copper_wire"
+    },
+    "title": "Wire-full",
+    "description": "Hammer out a length of copper wire",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:invar",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:copper_wire"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

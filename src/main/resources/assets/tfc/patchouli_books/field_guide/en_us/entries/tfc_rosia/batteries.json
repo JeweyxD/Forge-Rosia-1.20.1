@@ -1,0 +1,44 @@
+{
+  "name": "FE Batteries",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:zinc_silver_battery",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Nickel-Iron Battery$() is a storage method for $(thing)FE$(). Maximum capacity of $(thing)2,000 FE$(). Maximum transfer rate of $(thing)20 FE per tick$().$(br2)Fixed output on the top of the battery, input on the bottom.$(br2)To toggle automatic power output to neighboring blocks, press the $(thing)Toggle$() button."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/nickel_iron_battery",
+      "text": "Energy is retained when the block is mined."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Zinc-Silver Battery$() is an upgraded storage method for $(thing)FE$(). Maximum capacity of $(thing)5,000 FE$(). Maximum transfer rate of $(thing)50 FE per tick$().$(br2)Fixed output on the top of the battery. All other sides input.$(br2)To toggle automatic power output to neighboring blocks, press the $(thing)Toggle$() button."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/zinc_silver_battery",
+      "text": "Energy is retained when the block is mined.$(br2)The $(thing)Zinc-Silver Battery$() can be read by comparators."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Power Conduits$() can be set up to move energy longer distances. $(item)$(k:key.use)$() while holding a $(thing)Hammer$() on a conduit to turn on/off extract mode.$(br2)Conduits set to extract can only $(bold)drain$() FE storages, not fill them, and cannot connect to other conduits set to extract."
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "rosia:anvil/power_conduit",
+      "text": "Power conduits are crafted from copper on an $(l:mechanics/anvils)Anvil$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/encased_power_conduit",
+      "text": "$(thing)Encased Power Conduits$() are full blocks; useful for passing conduits through walls, floors, or ceilings.$(br2)Encased power conduits act exactly the same as normal power conduits."
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "rosia:power_conduit": 0
+  },
+  "sortnum": 6
+}

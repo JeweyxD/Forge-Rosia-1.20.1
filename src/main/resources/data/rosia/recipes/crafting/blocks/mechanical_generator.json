@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VYV",
+    "XZX",
+    "UWU"
+  ],
+  "key": {
+    "U": {
+      "item": "rosia:invar_rod"
+    },
+    "V": {
+      "item": "rosia:copper_coil"
+    },
+    "W": {
+      "item": "rosia:invar_double_sheet"
+    },
+    "X": {
+      "item": "rosia:motor"
+    },
+    "Y": {
+      "item": "tfc:metal/rod/wrought_iron"
+    },
+    "Z": {
+      "item": "rosia:machine_frame"
+    }
+  },
+  "result": {
+    "item": "rosia:mechanical_generator",
+    "count": 1
+  }
+}

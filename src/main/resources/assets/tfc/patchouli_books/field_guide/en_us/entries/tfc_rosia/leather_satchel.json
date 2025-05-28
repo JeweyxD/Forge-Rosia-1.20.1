@@ -1,0 +1,23 @@
+{
+  "name": "Leather Satchel",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:leather_satchel",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "When long expeditions have you gathering vast amounts of resources, one extra slot can have a large impact. $(thing)Leather Satchels$() are similar to $(l:getting_started/pottery#vessel)Small Vessels$(), but have an additional slot. Contrarily, satchels don't have the means to melt ores nor do they preserve food as efficiently."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/leather_satchel",
+      "text": "$(thing)Leather Satchels$() are crafted with two $(thing)Satchel Parts$(), which are knapped from leather."
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "rosia:leather_knapping/satchel_part",
+      "text": "Leather knapping recipe for $(thing)Satchel Parts$()."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 17
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:steam_generator"
+    },
+    "title": "All The Power In The World!",
+    "description": "Craft a steam generator",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:mechanical_generator",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:steam_generator"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

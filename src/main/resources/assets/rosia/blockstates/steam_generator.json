@@ -1,0 +1,14 @@
+{
+  "variants": {
+      "facing=east,steam=false": {"model": "rosia:block/steam_generator/unlit", "y": 90},
+      "facing=north,steam=false": {"model": "rosia:block/steam_generator/unlit"},
+      "facing=south,steam=false": {"model": "rosia:block/steam_generator/unlit", "y": 180},
+      "facing=west,steam=false": {"model": "rosia:block/steam_generator/unlit", "y": 270},
+      "facing=east,steam=true": {"model": "rosia:block/steam_generator/lit", "y": 90},
+      "facing=north,steam=true": {"model": "rosia:block/steam_generator/lit"},
+      "facing=south,steam=true": {"model": "rosia:block/steam_generator/lit", "y": 180},
+      "facing=west,steam=true": {"model": "rosia:block/steam_generator/lit", "y": 270}
+
+
+  }
+}

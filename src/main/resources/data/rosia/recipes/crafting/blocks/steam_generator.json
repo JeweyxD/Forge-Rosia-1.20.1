@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VYV",
+    "XZX",
+    "UWU"
+  ],
+  "key": {
+    "U": {
+      "item": "tfc:metal/rod/steel"
+    },
+    "V": {
+      "item": "rosia:copper_coil"
+    },
+    "W": {
+      "item": "tfc:metal/double_sheet/steel"
+    },
+    "X": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "Y": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "Z": {
+      "item": "rosia:mechanical_generator"
+    }
+  },
+  "result": {
+    "item": "rosia:steam_generator",
+    "count": 1
+  }
+}

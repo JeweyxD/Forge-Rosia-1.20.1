@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:steel_pipe"
+    },
+    "Y": {
+      "item": "tfc:glue"
+    }
+  },
+  "result": {
+    "item": "rosia:pressurized_pipe",
+    "count": 8
+  }
+}

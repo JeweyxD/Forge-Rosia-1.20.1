@@ -1,0 +1,14 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "rosia:purple_steel_knife_blade"
+  },
+  "second_input": {
+    "item": "rosia:purple_steel_knife_blade"
+  },
+  "tier": 5,
+  "result": {
+    "item": "rosia:purple_steel_shears"
+  },
+  "combine_forging_bonus": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "rosia:electric_loom",
+  "ingredients": [
+    {
+      "item": "tfc:jute_fiber"
+    }
+  ],
+  "input_count": 12,
+  "output": {
+    "item": "tfc:burlap_cloth",
+    "count": 1
+    }
+}

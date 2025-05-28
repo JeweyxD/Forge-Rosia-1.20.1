@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:food/grain_can"
+    },
+    "title": "I'll Bet They Won't Have...",
+    "description": "Wow! They have it!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "rosia:canning_press",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:food/grain_can"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

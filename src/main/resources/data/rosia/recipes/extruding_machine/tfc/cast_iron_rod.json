@@ -1,0 +1,12 @@
+{
+  "type": "rosia:extruding_machine",
+  "ingredients": [
+    {
+      "item": "tfc:metal/ingot/cast_iron"
+    }
+  ],
+  "output": {
+    "item": "tfc:metal/rod/cast_iron",
+    "count": 2
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "rosia:extruding_machine",
+  "ingredients": [
+    {
+      "item": "rosia:invar_ingot"
+    }
+  ],
+  "output": {
+    "item": "rosia:invar_rod",
+    "count": 2
+    }
+}

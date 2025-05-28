@@ -1,0 +1,27 @@
+{
+  "name": "Locomotive",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:locomotive",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Locomotive$() is a type of minecart which has its own means of propulsion. A locomotive can be ridden by the player, and can push other minecarts ahead of itself.$(br2)The inventory contains 12 slots: 9 which operate the same as regular TFC chests, in that they cannot hold very large items, and 3 fuel slots for coal and charcoal."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Unlike normal minecarts, powered rails are not needed. To move, enter the locomotive and press either $(item)$(k:key.forward)$() or $(item)$(k:key.back)$().$(br2)Fuel is only consumed if the locomotive is moving, so come to a complete stop when not in use to conserve it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/stirling_engine_slab",
+      "text": "First, craft a $(thing)Stirling Engine$().$(br2)(This is a non-functional block which serves only as a crafting intermediate)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/locomotive",
+      "text": "Then, craft a $(thing)Locomotive$() and place it down on a rail."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 15
+}

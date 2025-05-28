@@ -1,0 +1,23 @@
+{
+  "type": "rosia:boiling_cauldron",
+  "ingredients": [
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "input_count": 1,
+  "input_fluid": {
+    "fluid": "minecraft:water",
+    "amount": 0
+  },
+  "duration": 250,
+  "temperature": 100,
+  "output": {
+    "item": "minecraft:snowball",
+    "count": 0
+  },
+  "output_fluid": {
+    "fluid": "minecraft:water",
+    "amount": 100
+  }
+}

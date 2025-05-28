@@ -1,0 +1,6 @@
+{
+  "parent": "item/trident_throwing",
+  "textures": {
+    "particle": "rosia:item/metal/tools/purple_steel_javelin"
+  }
+}

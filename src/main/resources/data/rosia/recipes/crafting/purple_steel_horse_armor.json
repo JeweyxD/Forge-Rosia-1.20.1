@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YXY",
+    "ZZZ"
+  ],
+  "key": {
+    "Z": {
+      "item": "rosia:purple_steel_double_sheet"
+    },
+    "Y": {
+      "item": "tfc:jute"
+    },
+    "X": {
+      "item": "minecraft:leather_horse_armor"
+    }
+  },
+  "result": {
+    "item": "rosia:purple_steel_horse_armor"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rosia:block/stirling_engine_slab/stirling_engine_slab"
+    },
+    "type=top": {
+      "model": "rosia:block/stirling_engine_slab/stirling_engine_slab_top"
+    },
+    "type=double": {
+      "model": "rosia:block/stirling_engine_slab/stirling_engine"
+    }
+  }
+}

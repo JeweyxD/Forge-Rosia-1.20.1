@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "rosia:motor",
+    "rosia:satchel_part",
+    "rosia:rifle_ammo"
+  ]
+}

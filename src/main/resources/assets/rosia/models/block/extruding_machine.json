@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "rosia:block/machine_frame",
+    "front": "rosia:block/extruding_machine_front",
+    "side": "rosia:block/machine_frame",
+    "bottom": "rosia:block/machine_frame"
+  }
+}

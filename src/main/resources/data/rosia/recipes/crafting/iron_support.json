@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z  ",
+    "Z  ",
+    "   "
+  ],
+  "key": {
+    "Z": {
+      "item": "tfc:metal/ingot/cast_iron"
+    }
+  },
+  "result": {
+    "item": "rosia:iron_support",
+    "count": 4
+  }
+}

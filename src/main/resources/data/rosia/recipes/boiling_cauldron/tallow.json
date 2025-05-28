@@ -1,0 +1,23 @@
+{
+  "type": "rosia:boiling_cauldron",
+  "ingredients": [
+    {
+      "item": "tfc:blubber"
+    }
+  ],
+  "input_count": 5,
+  "input_fluid": {
+    "fluid": "minecraft:water",
+    "amount": 1000
+  },
+  "duration": 2000,
+  "temperature": 600,
+  "output": {
+    "item": "tfc:blubber",
+    "count": 0
+  },
+  "output_fluid": {
+    "fluid": "tfc:tallow",
+    "amount": 1000
+  }
+}

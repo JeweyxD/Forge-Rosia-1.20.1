@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:tool_belt"
+    },
+    "title": "Handyman",
+    "description": "Craft a tool belt",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:leather_satchel",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:tool_belt"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

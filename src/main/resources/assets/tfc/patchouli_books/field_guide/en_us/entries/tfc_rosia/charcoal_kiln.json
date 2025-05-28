@@ -1,0 +1,39 @@
+{
+  "name": "Charcoal Kiln",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:charcoal_kiln",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Charcoal Kiln$() is a device used to produce charcoal. Charcoal kilns are multiblock structures.$(br2)Creating charcoal in a kiln is faster and more efficient with a $(thing)75%$() yield on charcoal and taking only $(thing)75%$() the normal time."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/charcoal_kiln",
+      "text": "The $(thing)Charcoal Kiln$() is made using fired clay bricks and a bronze double sheet."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You will need to construct the charcoal kiln multiblock. The structure is made from the kiln block and five brick blocks. The center must be hollow.$(br2)The kiln will only be interactable if the structure is complete. Destroying the structure while it is lit will result in losing logs. Once logs are inside the kiln, light with a firestarter."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          ["   ", " A ", "   "],
+          [" A ", "A0A", " B "],
+          ["   ", " A ", "   "]
+        ],
+        "mapping": {
+          "A": "minecraft:bricks",
+          "B": "rosia:charcoal_kiln[facing=east]"
+        }
+      },
+      "name": "Charcoal Kiln",
+      "text": "The Charcoal Kiln's construction.",
+      "enable_visualize": true
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 3
+}

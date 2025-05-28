@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:purple_steel_rifle"
+    },
+    "title": "You'll Shoot Your Eye Out!",
+    "description": "Craft a purple steel rifle",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:purple_steel",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:purple_steel_rifle"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

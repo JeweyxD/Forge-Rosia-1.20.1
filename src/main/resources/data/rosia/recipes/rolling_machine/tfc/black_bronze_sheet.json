@@ -1,0 +1,12 @@
+{
+  "type": "rosia:rolling_machine",
+  "ingredients": [
+    {
+      "item": "tfc:metal/double_ingot/black_bronze"
+    }
+  ],
+  "output": {
+    "item": "tfc:metal/sheet/black_bronze",
+    "count": 1
+    }
+}

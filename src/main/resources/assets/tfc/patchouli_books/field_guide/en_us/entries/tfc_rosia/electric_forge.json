@@ -1,0 +1,30 @@
+{
+  "name": "Electric Forge",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:electric_forge",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Electric Forge$() is an advanced device used to heat and melt items in a controlled environment.$(br2)Items heat $(thing)2x$() faster in the Electric Forge.$(br2)The Electric Forge does not require a chimney to operate. Furthermore, a $(l:mechanics/bellows)Bellows$() has no effect on the temperature."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/electric_forge",
+      "text": "The $(thing)Electric Forge$() uses a large amount of $(thing)Purple Steel$(), making it challenging to obtain."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Electric Forge$() has five slots for heating items and one slot for molds or vessels. The forge will also heat devices that are placed above it.$(br2)Click the $(thing)-$() or $(thing)+$() to set the target temperature in increments of 10°; or 100° with $(item)$(k:key.sneak)$().$(br2)The higher the temperature, the more power is consumed."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "rosia:textures/book/electric_forge_book_gui.png"
+      ],
+      "text": "The Electric Forge's interface.",
+      "border": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 11
+}

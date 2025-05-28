@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "key": {
+    "X": {
+      "item": "rosia:copper_coil"
+    },
+    "Y": {
+      "item": "tfc:lamp_glass"
+    },
+    "Z": {
+      "item": "rosia:invar_sheet"
+    }
+  },
+  "result": {
+    "item": "rosia:electric_lantern",
+    "count": 1
+  }
+}

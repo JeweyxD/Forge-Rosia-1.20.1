@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TYT",
+    "WZX",
+    "VUV"
+  ],
+  "key": {
+    "T": {
+      "item": "tfc:powder/graphite"
+    },
+    "U": {
+      "item": "tfc:metal/double_sheet/sterling_silver"
+    },
+    "V": {
+      "item": "tfc:metal/sheet/steel"
+    },
+    "W": {
+      "item": "tfc:metal/sheet/silver"
+    },
+    "X": {
+      "item": "tfc:metal/sheet/zinc"
+    },
+    "Y": {
+      "item": "rosia:machine_frame"
+    },
+    "Z": {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "tfc:lye",
+        "amount": 1000
+      }
+    }
+  },
+  "result": {
+    "item": "rosia:zinc_silver_battery",
+    "count": 1
+  }
+}

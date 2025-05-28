@@ -1,0 +1,181 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "north": true,
+        "extract": true
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_on",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "north": true,
+        "extract": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_off",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "north": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "south": true,
+        "extract": true
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_on",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "south": true,
+        "extract": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_off",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "south": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "east": true,
+        "extract": true
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_on",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "east": true,
+        "extract": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_off",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "east": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "extract": true
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_on",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "extract": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_off",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "extract": true
+      },
+      "apply": {
+        "model":  "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_on"
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "extract": false
+      },
+      "apply": {
+        "model":  "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_off"
+      }
+    },
+    {
+      "when": {
+        "down": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe"
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "extract": true
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_on",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "extract": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe_off",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "up": false
+      },
+      "apply": {
+        "model": "rosia:block/encased_pressurized_pipe/encased_pressurized_pipe",
+        "x": 180
+      }
+    }
+  ]
+}

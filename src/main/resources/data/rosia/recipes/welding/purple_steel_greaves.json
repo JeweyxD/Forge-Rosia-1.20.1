@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "rosia:purple_steel_unfinished_greaves"
+  },
+  "second_input": {
+    "item": "rosia:purple_steel_sheet"
+  },
+  "tier": 5,
+  "result": {
+    "item": "rosia:purple_steel_greaves"
+  }
+}

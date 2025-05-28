@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "rosia:mechanical_generator"
+    },
+    "title": "Electrical Era",
+    "description": "Craft a mechanical generator, the foundation of your electrical network",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rosia:machine_frame",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rosia:mechanical_generator"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

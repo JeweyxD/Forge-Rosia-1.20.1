@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "rosia:block/steam_generator/steam_generator_top",
+    "front": "rosia:block/steam_generator/steam_generator_front_off",
+    "side": "rosia:block/steam_generator/steam_generator_side",
+    "bottom": "rosia:block/steam_generator/steam_generator_top"
+  }
+}

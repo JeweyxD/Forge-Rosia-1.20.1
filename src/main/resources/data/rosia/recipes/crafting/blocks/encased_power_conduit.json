@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "XXX",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "rosia:power_conduit"
+    },
+    "Y": {
+      "item": "rosia:invar_sheet"
+    }
+  },
+  "result": {
+    "item": "rosia:encased_power_conduit",
+    "count": 3
+  }
+}

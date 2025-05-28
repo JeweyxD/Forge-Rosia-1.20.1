@@ -1,0 +1,12 @@
+{
+  "type": "rosia:extruding_machine",
+  "ingredients": [
+    {
+      "item": "tfc:metal/ingot/black_bronze"
+    }
+  ],
+  "output": {
+    "item": "tfc:metal/rod/black_bronze",
+    "count": 2
+    }
+}

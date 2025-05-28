@@ -1,0 +1,13 @@
+{
+  "type": "rosia:electric_loom",
+  "ingredients": [
+    {
+      "item": "tfc:soaked_papyrus_strip"
+    }
+  ],
+  "input_count": 4,
+  "output": {
+    "item": "tfc:unrefined_paper",
+    "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=east,lit=false": {"model": "rosia:block/lava_basin/unlit", "y": 90},
+    "facing=north,lit=false": {"model": "rosia:block/lava_basin/unlit"},
+    "facing=south,lit=false": {"model": "rosia:block/lava_basin/unlit", "y": 180},
+    "facing=west,lit=false": {"model": "rosia:block/lava_basin/unlit", "y": 270},
+    "facing=east,lit=true": {"model": "rosia:block/lava_basin/lit", "y": 90},
+    "facing=north,lit=true": {"model": "rosia:block/lava_basin/lit"},
+    "facing=south,lit=true": {"model": "rosia:block/lava_basin/lit", "y": 180},
+    "facing=west,lit=true": {"model": "rosia:block/lava_basin/lit", "y": 270}
+  }
+}

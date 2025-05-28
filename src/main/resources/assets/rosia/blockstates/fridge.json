@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=east,dummy=false": {"model": "rosia:block/fridge", "y": 90},
+    "facing=north,dummy=false": {"model": "rosia:block/fridge"},
+    "facing=south,dummy=false": {"model": "rosia:block/fridge", "y": 180},
+    "facing=west,dummy=false": {"model": "rosia:block/fridge", "y": 270},
+    "facing=east,dummy=true": {"model": "rosia:block/fridge_empty"},
+    "facing=north,dummy=true": {"model": "rosia:block/fridge_empty"},
+    "facing=south,dummy=true": {"model": "rosia:block/fridge_empty"},
+    "facing=west,dummy=true": {"model": "rosia:block/fridge_empty"}
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "YZY",
+    "VWV"
+  ],
+  "key": {
+    "V": {
+      "item": "tfc:metal/rod/steel"
+    },
+    "W": {
+      "item": "tfc:metal/double_sheet/steel"
+    },
+    "X": {
+      "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "Y": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "Z": {
+      "item": "rosia:invar_sheet"
+    }
+  },
+  "result": {
+    "item": "rosia:stirling_engine_slab",
+    "count": 1
+  }
+}

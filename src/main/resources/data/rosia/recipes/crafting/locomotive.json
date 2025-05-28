@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rosia:stirling_engine_slab"
+    },
+    {
+      "item": "minecraft:minecart"
+    },
+    {
+      "tag": "forge:chests/wooden"
+    }
+  ],
+  "result": {
+    "item": "rosia:locomotive",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "tier": 3,
+  "fluid": "rosia:purple_steel_fluid",
+  "melt_temperature": 1548,
+  "specific_heat_capacity": 0.009,
+  "ingots": {
+    "item": "rosia:purple_steel_ingot"
+  },
+  "sheets": {
+    "item": "rosia:purple_steel_sheet"
+  }
+  }

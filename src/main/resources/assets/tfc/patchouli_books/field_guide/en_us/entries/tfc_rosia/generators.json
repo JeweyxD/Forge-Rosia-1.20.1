@@ -1,0 +1,39 @@
+{
+  "name": "FE Generators",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:steam_generator",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Mechanical Generator$() is a basic method of generating $(thing)FE$(). When connected to a mechanical network, the generator will turn and produce electricity.$(br2)To toggle automatic power output to neighboring blocks, press the $(thing)Toggle$() button."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/mechanical_generator",
+      "text": "The higher the speed, the faster the $(thing)Mechanical Generator$() produces electricity.$(br2)The Mechanical Generator has a maximum rate of $(thing)1 FE per tick$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Steam Generator$() is an advanced method of generating $(thing)FE$(). When placed above a heat source, it consumes water and produces electricity.$(br2)Water can either be brought in with buckets using the input slot, or piped in from another source."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/steam_generator",
+      "text": "The higher the temperature, the faster the $(thing)Steam Generator$() consumes water and produces electricity.$(br2)The Steam Generator has a maximum rate of $(thing)5 FE per tick$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It is important to make sure you have enough $(thing)FE storage$() to capitalize on the entirety of your fuel's burn time.$(br2)The thermometer in the interface is different than heat producing sources as it shows the temperature up to its highest functioning value.$(br2)To toggle automatic power output to neighboring blocks, press the $(thing)Toggle$() button."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "rosia:textures/book/steam_generator_book_gui.png"
+      ],
+      "text": "The Steam Generator's interface.",
+      "border": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 5
+}

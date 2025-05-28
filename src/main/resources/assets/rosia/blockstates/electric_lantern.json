@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "on=false": {"model": "rosia:block/electric_lantern/off"},
+    "on=true": {"model": "rosia:block/electric_lantern/on"}
+  }
+}

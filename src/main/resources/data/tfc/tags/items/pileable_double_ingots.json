@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:double_ingots/invar",
+    "#forge:double_ingots/purple_steel"
+  ]
+}

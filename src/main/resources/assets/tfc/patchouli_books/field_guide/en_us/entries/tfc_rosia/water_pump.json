@@ -1,0 +1,36 @@
+{
+  "name": "Water Pump",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:water_pump",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/water_pump",
+      "text": "The $(thing)Water Pump$() gives you the ability to move water with electricity. It has a speed of $(thing)30mB per tick$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "rosia:textures/book/water_pump_book.png"
+      ],
+      "text": "The pump must be submerged in water.",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Unlike the $(thing)Steel Pump$() which moves source blocks, the $(thing)Water Pump$() collects water from source blocks and transfers it to adjacent tanks.$(br2)$(thing)Pressurized Pipes$() can be set up to move water longer distances. $(item)$(k:key.use)$() while holding a $(thing)Hammer$() on a pipe to turn on/off extract mode."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/pressurized_pipe",
+      "text": "Pipes set to extract can only $(bold)drain$() tanks, not fill them, and cannot connect to other pipes set to extract."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/encased_pressurized_pipe",
+      "text": "$(thing)Encased Pressurized Pipes$() are full blocks; useful for passing pipes through walls, floors, or ceilings.$(br2)Encased pressurized pipes act exactly the same as normal pressurized pipes."
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 7
+}

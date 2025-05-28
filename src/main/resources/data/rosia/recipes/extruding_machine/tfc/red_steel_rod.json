@@ -1,0 +1,12 @@
+{
+  "type": "rosia:extruding_machine",
+  "ingredients": [
+    {
+      "item": "tfc:metal/ingot/red_steel"
+    }
+  ],
+  "output": {
+    "item": "tfc:metal/rod/red_steel",
+    "count": 2
+    }
+}

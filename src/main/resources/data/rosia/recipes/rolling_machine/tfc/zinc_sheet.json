@@ -1,0 +1,12 @@
+{
+  "type": "rosia:rolling_machine",
+  "ingredients": [
+    {
+      "item": "tfc:metal/double_ingot/zinc"
+    }
+  ],
+  "output": {
+    "item": "tfc:metal/sheet/zinc",
+    "count": 1
+    }
+}

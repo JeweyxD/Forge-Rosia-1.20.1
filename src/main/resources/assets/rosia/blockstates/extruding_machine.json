@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=east": {"model": "rosia:block/extruding_machine", "y": 90},
+    "facing=north": {"model": "rosia:block/extruding_machine"},
+    "facing=south": {"model": "rosia:block/extruding_machine", "y": 180},
+    "facing=west": {"model": "rosia:block/extruding_machine", "y": 270}
+  }
+}

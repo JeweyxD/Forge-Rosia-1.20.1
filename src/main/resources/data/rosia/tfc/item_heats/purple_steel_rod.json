@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "rosia:purple_steel_rod"
+  },
+  "heat_capacity": 1.625,
+  "forging_temperature": 1300,
+  "welding_temperature": 1450
+}

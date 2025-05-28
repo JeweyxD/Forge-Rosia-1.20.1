@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=east": {"model": "rosia:block/water_pump", "y": 90},
+    "facing=north": {"model": "rosia:block/water_pump"},
+    "facing=south": {"model": "rosia:block/water_pump", "y": 180},
+    "facing=west": {"model": "rosia:block/water_pump", "y": 270}
+  }
+}
