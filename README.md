@@ -40,7 +40,7 @@
 ###### Electric Grill - Cook food faster and in greater quantity
 ###### Fridge - Keep food fresh for longer
 
-#### QOL
+#### Misc/QOL
 ###### Boiling Cauldron - Boil pot recipes in bulk
 ###### Locomotive - Travel the rails by coal-power
 ###### Stone Paths - Increase movement speed; perfect for long roads
