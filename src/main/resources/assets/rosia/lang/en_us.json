@@ -181,5 +181,11 @@
 
   "effect.rosia.path_speed": "Path Speed",
 
-  "creativetab.rosia_tab": "Rosia"
+  "creativetab.rosia_tab": "Rosia",
+  "config.jade.plugin_tfc.electric_forge": "Electric Forge",
+  "config.jade.plugin_tfc.boiling_cauldron":"Boiling Cauldron",
+  "config.jade.plugin_tfc.kiln": "Charcoal Kiln",
+  "config.jade.plugin_tfc.steam_generator":"Steam Generator",
+  "config.jade.plugin_tfc.fire_box": "Fire Box",
+  "config.jade.plugin_tfc.lava_basin":"Lava Basin"
 }
