@@ -3,6 +3,7 @@ package com.jewey.rosia.common.blocks.entity.block_entity;
 import com.jewey.rosia.common.blocks.block.fire_box;
 import com.jewey.rosia.common.blocks.entity.ModBlockEntities;
 import com.jewey.rosia.common.container.FireBoxContainer;
+import com.jewey.rosia.config.RosiaConfig;
 import com.jewey.rosia.util.RosiaTags;
 import net.dries007.tfc.common.TFCTags;
 import net.dries007.tfc.common.blockentities.TickableInventoryBlockEntity;
@@ -348,8 +349,8 @@ public class FireBoxBlockEntity extends TickableInventoryBlockEntity<ItemStackHa
             Fuel fuel = Fuel.get(fuelStack);
             if (fuel != null)
             {
-                initBurnTicks = (float) (fuel.getDuration() * 1.1);
-                burnTicks += fuel.getDuration() * 1.1;      // 10% more efficient
+                initBurnTicks = (float) (fuel.getDuration() * RosiaConfig.SERVER.FireBoxEfficiency.get());
+                burnTicks += fuel.getDuration() * RosiaConfig.SERVER.FireBoxEfficiency.get();      // 10% more efficient
                 burnTemperature = fuel.getTemperature();
             }
             markForSync();
