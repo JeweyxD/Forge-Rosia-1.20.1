@@ -120,7 +120,7 @@ public class ExtrudingMachineRecipe implements Recipe<SimpleContainer> {
             for (Ingredient ing : recipe.getIngredients()) {
                 ing.toNetwork(buf);
             }
-            recipe.output.toNetwork(buf);
+            buf.writeItemStack(recipe.getResultItem(null), false);
         }
 
         @SuppressWarnings("unchecked") // Need this wrapper, because generics
