@@ -140,7 +140,7 @@ public class ExtrudingMachineBlockEntity extends TickableInventoryBlockEntity<It
             }
         }
     };
-    private static final int ENERGY_REQ = RosiaConfig.SERVER.ExtrudingMachineEnergyReq.get(); // Energy cost to craft item
+    private static final int ENERGY_REQ = 50; // Energy cost to craft item
 
     private LazyOptional<IEnergyStorage> lazyEnergyHandler = LazyOptional.empty();
 
