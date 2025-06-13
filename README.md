@@ -29,6 +29,7 @@
 ###### Electric Forge - Heat metals with a controlled temperature range
 
 #### Automation
+###### Magnetizer - Make magnets magnet-y
 ###### Auto-Quern - Grind items into powders and dyes
 ###### Extruding Machine - Form hot metal into rods
 ###### Rolling Machine - Form hot metal into sheets
@@ -46,6 +47,7 @@
 ###### Stone Paths - Increase movement speed; perfect for long roads
 ###### Leather Satchel - An inventory item with five slots
 ###### Tool Belt - An inventory item with five slots for carrying tools
+###### Prospecting Kit - A tool for precision prospecting
 ###### Electric Lantern - Cheap long-term lighting
 ###### Iron Support Beams - Support beams with 11x7x11 range
 
