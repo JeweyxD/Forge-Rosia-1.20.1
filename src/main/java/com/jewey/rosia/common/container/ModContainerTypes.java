@@ -21,6 +21,10 @@ import static com.jewey.rosia.Rosia.MOD_ID;
 public class ModContainerTypes {
     public static final DeferredRegister<MenuType<?>> CONTAINERS = DeferredRegister.create(Registries.MENU, MOD_ID);
 
+    public static final RegistryObject<MenuType<MagnetizerContainer>>
+            MAGNETIZER = ModContainerTypes.<MagnetizerBlockEntity, MagnetizerContainer>registerBlock(
+                    "magnetizer", ModBlockEntities.MAGNETIZER_BLOCK_ENTITY, MagnetizerContainer::create);
+
     public static final RegistryObject<MenuType<AutoQuernContainer>>
             AUTO_QUERN = ModContainerTypes.<AutoQuernBlockEntity, AutoQuernContainer>registerBlock(
                     "auto_quern", ModBlockEntities.AUTO_QUERN_BLOCK_ENTITY, AutoQuernContainer::create);
@@ -98,6 +102,9 @@ public class ModContainerTypes {
 
     public static final RegistryObject<MenuType<ToolBeltContainer>>
             TOOL_BELT = registerItem("tool_belt", ToolBeltContainer::create);
+
+    public static final RegistryObject<MenuType<ProspectingKitContainer>>
+            PROSPECTING_KIT = registerItem("prospecting_kit", ProspectingKitContainer::create);
 
     public static final RegistryObject<MenuType<LocomotiveContainer>>
             LOCOMOTIVE = ModContainerTypes.<LocomotiveContainer>register(

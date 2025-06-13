@@ -1,0 +1,15 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:ingots/wrought_iron"
+  },
+  "result": {
+    "item": "rosia:trowel"
+  },
+  "tier": 3,
+  "rules": [
+    "punch_last",
+    "hit_not_last"
+  ],
+  "apply_forging_bonus": false
+}

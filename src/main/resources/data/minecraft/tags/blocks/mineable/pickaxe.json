@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "rosia:magnetizer",
     "rosia:auto_quern",
     "rosia:fire_box",
     "rosia:machine_frame",

@@ -20,6 +20,9 @@ public class ModBlockEntities {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITY_TYPES =
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, Rosia.MOD_ID);
 
+    public static final RegistryObject<BlockEntityType<MagnetizerBlockEntity>> MAGNETIZER_BLOCK_ENTITY =
+            register("magnetizer_block_entity", MagnetizerBlockEntity::new, ModBlocks.MAGNETIZER);
+
     public static final RegistryObject<BlockEntityType<AutoQuernBlockEntity>> AUTO_QUERN_BLOCK_ENTITY =
             register("auto_quern_block_entity", AutoQuernBlockEntity::new, ModBlocks.AUTO_QUERN);
 

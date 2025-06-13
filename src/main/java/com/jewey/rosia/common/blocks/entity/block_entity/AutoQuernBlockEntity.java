@@ -6,7 +6,6 @@ import com.jewey.rosia.common.container.AutoQuernContainer;
 import com.jewey.rosia.common.items.ModItems;
 import com.jewey.rosia.networking.ModMessages;
 import com.jewey.rosia.networking.packet.EnergySyncS2CPacket;
-import com.jewey.rosia.recipe.AutoQuernRecipe;
 import com.jewey.rosia.util.ModEnergyStorage;
 import net.dries007.tfc.client.TFCSounds;
 import net.dries007.tfc.common.blockentities.TickableInventoryBlockEntity;
@@ -38,8 +37,6 @@ import net.minecraftforge.energy.IEnergyStorage;
 import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-
-import java.util.Optional;
 
 import static com.jewey.rosia.Rosia.MOD_ID;
 
@@ -201,7 +198,7 @@ public class AutoQuernBlockEntity extends TickableInventoryBlockEntity<ItemStack
             pLevel.setBlock(pPos, pState.setValue(auto_quern.ON, true), 3);
             setChanged(pLevel, pPos, pState);
             if(pBlockEntity.progress > pBlockEntity.maxProgress) {
-                craftItem(pBlockEntity);
+                pBlockEntity.craftItem(pBlockEntity);
                 extractEnergy(pBlockEntity);
                 pBlockEntity.resetSTick();
             }
@@ -246,23 +243,29 @@ public class AutoQuernBlockEntity extends TickableInventoryBlockEntity<ItemStack
         return entity.inventory.getStackInSlot(0).getItem() == ModItems.STEEL_GRINDSTONE.get();
     }
 
-    private static void craftItem(AutoQuernBlockEntity entity) {
+    private void craftItem(AutoQuernBlockEntity entity) {
         Level level = entity.level;
-        final ItemStack inputStack = entity.inventory.getStackInSlot(1);
-        final ItemStackInventory wrapper = new ItemStackInventory(inputStack);
-        final QuernRecipe recipe = QuernRecipe.getRecipe(level, wrapper);
+        assert level != null;
+        final ItemStack inputStack = inventory.getStackInSlot(1);
 
-        if(recipe.matches(wrapper, level)) {
-            if(entity.inventory.getStackInSlot(0).hurt(1, RandomSource.create(), null)) {
-                entity.inventory.extractItem(0,1, false);
+        if (!inputStack.isEmpty())
+        {
+            final ItemStackInventory wrapper = new ItemStackInventory(inputStack);
+            final QuernRecipe recipe = QuernRecipe.getRecipe(level, wrapper);
+            if (recipe != null && recipe.matches(wrapper, level))
+            {
+                ItemStack outputStack = recipe.assemble(wrapper, level.registryAccess());
+                outputStack.setCount(entity.inventory.getStackInSlot(2).getCount() + recipe.getResult().stack().get().getCount());
+                entity.inventory.setStackInSlot(2, outputStack);
+                if(inventory.getStackInSlot(0).hurt(1, RandomSource.create(), null)) {
+                    inventory.extractItem(0,1, false);
+                }
+
+                // Shrink the input stack after the recipe is done assembling
+                inputStack.shrink(1);
+                entity.resetProgress();
+                markForSync();
             }
-            entity.inventory.extractItem(1,1, false);
-
-            ItemStack outputStack = recipe.getResult().stack().get();
-            outputStack.setCount(entity.inventory.getStackInSlot(2).getCount() + recipe.getResult().stack().get().getCount());
-            entity.inventory.setStackInSlot(2, outputStack);
-
-            entity.resetProgress();
         }
     }
 

@@ -1,0 +1,45 @@
+{
+  "name": "Prospecting Kit",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:prospecting_kit",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Prospecting Kit$() allows you to search for underground ore deposits with greater accuracy.$(br2)The prospecting kit searches a $(thing)5 x 5$() area around the player with a depth of $(thing)20$(), or a depth of $(thing)10$() with $(item)$(k:key.sneak)$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/prospecting_kit"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To process the ore samples collected, first dig away at the surface material by clicking the $(thing)Trowel Icon$(). This will reveal the underground location of ores, centered around the player. Note that the top of the menu points North.$(br2)Next, brush away the loose material by clicking the $(thing)Brush Icon$(). This will reveal what ores have been found, as well as their quantity relative to the area searched."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "rosia:textures/book/prospecting_kit_book1.png"
+      ],
+      "text": "Beginning to dig away material from the sample.",
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "rosia:textures/book/prospecting_kit_book2.png"
+      ],
+      "text": "Locations of underground ore revealed; beginning to brush away material from the sample.",
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "rosia:textures/book/prospecting_kit_book3.png"
+      ],
+      "text": "Ore types and their relative quantities revealed.",
+      "border": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 19
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " V ",
+    "XZW",
+    " Y "
+  ],
+  "key": {
+    "V": {
+      "item": "rosia:copper_coil"
+    },
+    "W": {
+      "item": "tfc:metal/rod/copper"
+    },
+    "X": {
+      "item": "tfc:metal/rod/zinc"
+    },
+    "Y": {
+      "item": "tfc:empty_jar_with_lid"
+    },
+    "Z": {
+      "type": "tfc:fluid_item",
+      "fluid_ingredient": {
+        "ingredient": "tfc:brine",
+        "amount": 100
+      }
+    }
+  },
+  "result": {
+    "item": "rosia:galvanic_cell",
+    "count": 1
+  }
+}

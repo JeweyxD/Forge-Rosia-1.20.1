@@ -1,0 +1,14 @@
+{
+  "type": "tfc:damage_inputs_shapeless_crafting",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [{
+      "item": "rosia:raw_magnet"
+    }, {
+      "item": "rosia:galvanic_cell"
+    }],
+    "result": {
+      "item": "rosia:magnet"
+    }
+  }
+}

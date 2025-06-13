@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YWZ",
+    " X "
+  ],
+  "key": {
+    "W": {
+      "item": "tfc:ceramic/bowl"
+    },
+    "X": {
+      "item": "rosia:leather_satchel"
+    },
+    "Y": {
+      "item": "rosia:trowel"
+    },
+    "Z": {
+      "item": "rosia:brush"
+    }
+  },
+  "result": {
+    "item": "rosia:prospecting_kit",
+    "count": 1
+  }
+}

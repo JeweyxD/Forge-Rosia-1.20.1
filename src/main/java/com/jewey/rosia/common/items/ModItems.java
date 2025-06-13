@@ -55,7 +55,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> PURPLE_STEEL_COIL = register("purple_steel_coil");
 
+    public static final RegistryObject<Item> GALVANIC_CELL = ITEMS.register("galvanic_cell",
+            () -> new Item(properties().durability(4)));
+
     public static final RegistryObject<Item> COMPRESSED_MAGNETITE = register("compressed_magnetite");
+
+    public static final RegistryObject<Item> RAW_MAGNET = register("raw_magnet");
 
     public static final RegistryObject<Item> MAGNET = register("magnet");
 
@@ -82,6 +87,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> TOOL_BELT = register("tool_belt",
             () -> new ToolBeltItem(properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> TROWEL = register("trowel");
+
+    public static final RegistryObject<Item> BRUSH = register("brush");
+
+    public static final RegistryObject<Item> PROSPECTING_KIT = register("prospecting_kit",
+            () -> new ProspectingKitItem(properties().durability(100)));
 
     public static final RegistryObject<Item> BULLET = register("bullets");
 
