@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BXB",
+    "OCO",
+    "BXB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blue_stained_glass_pane"
+    },
+    "X": {
+      "item": "tfc:brass_mechanisms"
+    },
+    "C": {
+      "item": "rosia:machine_frame"
+    },
+    "O": {
+      "item": "rosia:copper_coil"
+    }
+  },
+  "result": {
+    "item": "firmalife:climate_station"
+  }
+}
