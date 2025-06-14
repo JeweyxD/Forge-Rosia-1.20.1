@@ -4,6 +4,7 @@ import com.jewey.rosia.common.blocks.block.extruding_machine;
 import com.jewey.rosia.common.blocks.entity.ModBlockEntities;
 import com.jewey.rosia.common.container.ExtrudingMachineContainer;
 import com.jewey.rosia.common.items.ModItems;
+import com.jewey.rosia.config.RosiaConfig;
 import com.jewey.rosia.networking.ModMessages;
 import com.jewey.rosia.networking.packet.EnergySyncS2CPacket;
 import com.jewey.rosia.recipe.ExtrudingMachineRecipe;
