@@ -12,6 +12,7 @@ public class ClientSetup {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         //SCREEN REGISTER
             //BLOCK INVENTORY
+        MenuScreens.register(ModContainerTypes.MAGNETIZER.get(), MagnetizerScreen::new);
         MenuScreens.register(ModContainerTypes.AUTO_QUERN.get(), AutoQuernScreen::new);
         MenuScreens.register(ModContainerTypes.FIRE_BOX.get(), FireBoxScreen::new);
         MenuScreens.register(ModContainerTypes.MECHANICAL_GENERATOR.get(), MechanicalGeneratorScreen::new);
@@ -33,6 +34,7 @@ public class ClientSetup {
             //ITEM INVENTORY
         MenuScreens.register(ModContainerTypes.LEATHER_SATCHEL.get(), LeatherSatchelScreen::new);
         MenuScreens.register(ModContainerTypes.TOOL_BELT.get(), ToolBeltScreen::new);
+        MenuScreens.register(ModContainerTypes.PROSPECTING_KIT.get(), ProspectingKitScreen::new);
             //ENTITY INVENTORY
         MenuScreens.register(ModContainerTypes.LOCOMOTIVE.get(), LocomotiveScreen::new);
 

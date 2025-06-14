@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "YZY"
+  ],
+  "key": {
+    "X": {
+      "item": "rosia:copper_coil"
+    },
+    "Y": {
+      "item": "rosia:copper_wire"
+    },
+    "Z": {
+      "item": "rosia:invar_sheet"
+    }
+  },
+  "result": {
+    "item": "rosia:magnetizer",
+    "count": 1
+  }
+}

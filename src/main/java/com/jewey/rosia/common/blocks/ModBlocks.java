@@ -92,6 +92,11 @@ public class ModBlocks {
                     .randomTicks().sound(SoundType.METAL).blockEntity(ModBlockEntities.PRESSURIZED_PIPE_BLOCK_ENTITY)
                     .serverTicks(PressurizedPipeBlockEntity::serverTick).noOcclusion()));
 
+    public static final Supplier<? extends Block> MAGNETIZER = registerBlock("magnetizer",
+            () -> new magnetizer(ExtendedProperties.of(MapColor.METAL).strength(5f).requiresCorrectToolForDrops()
+                    .randomTicks().sound(SoundType.METAL).blockEntity(ModBlockEntities.MAGNETIZER_BLOCK_ENTITY)
+                    .serverTicks(MagnetizerBlockEntity::serverTick).noOcclusion()));
+
     public static final Supplier<? extends Block> AUTO_QUERN = registerBlock("auto_quern",
             () -> new auto_quern(ExtendedProperties.of(MapColor.METAL).strength(5f).requiresCorrectToolForDrops()
                     .randomTicks().sound(SoundType.METAL).blockEntity(ModBlockEntities.AUTO_QUERN_BLOCK_ENTITY)

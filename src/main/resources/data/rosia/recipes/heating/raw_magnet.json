@@ -4,7 +4,7 @@
     "item": "rosia:compressed_magnetite"
   },
   "result_item": {
-    "item": "rosia:magnet"
+    "item": "rosia:raw_magnet"
   },
   "temperature": 1228
 }

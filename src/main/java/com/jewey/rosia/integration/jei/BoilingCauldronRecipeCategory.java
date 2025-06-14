@@ -2,7 +2,6 @@ package com.jewey.rosia.integration.jei;
 
 import com.jewey.rosia.Rosia;
 import com.jewey.rosia.common.blocks.ModBlocks;
-import com.jewey.rosia.recipe.AutoQuernRecipe;
 import com.jewey.rosia.recipe.BoilingCauldronRecipe;
 import mezz.jei.api.constants.VanillaTypes;
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;

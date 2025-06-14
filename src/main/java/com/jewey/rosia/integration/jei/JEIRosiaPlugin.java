@@ -14,7 +14,6 @@ import mezz.jei.api.registration.IRecipeCategoryRegistration;
 import mezz.jei.api.registration.IRecipeRegistration;
 import net.dries007.tfc.TerraFirmaCraft;
 import net.dries007.tfc.common.recipes.QuernRecipe;
-import net.dries007.tfc.compat.jei.category.QuernRecipeCategory;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
@@ -32,7 +31,7 @@ public class JEIRosiaPlugin implements IModPlugin {
     @Override
     public void registerCategories(IRecipeCategoryRegistration registration) {
         final IGuiHelper gui = registration.getJeiHelpers().getGuiHelper();
-        registration.addRecipeCategories(new AutoQuernRecipeCategory(gui));
+
         registration.addRecipeCategories(new ExtrudingMachineRecipeCategory(gui));
         registration.addRecipeCategories(new RollingMachineRecipeCategory(gui));
         registration.addRecipeCategories(new ElectricLoomRecipeCategory(gui));
@@ -43,9 +42,6 @@ public class JEIRosiaPlugin implements IModPlugin {
     @Override
     public void registerRecipes(IRecipeRegistration registration) {
         RecipeManager recipeManager = Minecraft.getInstance().level.getRecipeManager();
-
-        List<AutoQuernRecipe> autoQuernRecipes = recipeManager.getAllRecipesFor(AutoQuernRecipe.Type.INSTANCE);
-        registration.addRecipes(AutoQuernRecipeCategory.AUTO_QUERN_TYPE, autoQuernRecipes);
 
         List<ExtrudingMachineRecipe> extrudingMachineRecipes = recipeManager.getAllRecipesFor(ExtrudingMachineRecipe.Type.INSTANCE);
         registration.addRecipes(ExtrudingMachineRecipeCategory.EXTRUDING_MACHINE_TYPE, extrudingMachineRecipes);

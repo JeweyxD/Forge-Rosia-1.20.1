@@ -11,14 +11,25 @@
       "type": "patchouli:spotlight",
       "item": "rosia:magnet",
       "title": "Magnet",
-      "link_recipes": false,
-      "text": "Magnets are an integral part of electric motors. Magnetite ore can be ground into $(thing)Magnetite Powder$(). The powder can be crafted into $(thing)Compressed Magnetite$() and then heated to $(bold)$(#FFFF00)Yellow***$() to form the $(thing)Magnet$()."
+      "link_recipes": true,
+      "text": "Magnets are an integral part of electric motors. Magnetite ore can be ground into $(thing)Magnetite Powder$(). The powder can be crafted into $(thing)Compressed Magnetite$() and then heated to $(bold)$(#FFFF00)Yellow***$() to form a $(thing)Raw Magnet$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/galvanic_cell",
+      "title": "Galvanic-Cell EM",
+      "text": "$(thing)Galvanic-Cell Electromagnets$() are primitive constructions consisting of a battery and an electromagnet made from a winding of copper wire."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/magnet",
+      "text": "By repetitiously passing a $(thing)Raw Magnet$() through a magnetic field, the iron magnetite becomes a permanent magnet.$(br2)This process can be simplified with a $(thing)Magnetizer$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "rosia:copper_wire",
       "title": "Copper Wire",
-      "link_recipes": false,
+      "link_recipes": true,
       "text": "Your first $(thing)Copper Wire$() will be made by working copper in an anvil. $(thing)Copper Wire$(), and subsequently $(thing)Copper Coils$(), are used in every electronic device."
     },
     {

@@ -121,7 +121,6 @@ public class RollingMachineRecipe implements Recipe<SimpleContainer> {
                 ing.toNetwork(buf);
             }
             recipe.output.toNetwork(buf);
-            //buf.writeItemStack(recipe.getResultItem(null), false);
         }
 
         @SuppressWarnings("unchecked") // Need this wrapper, because generics

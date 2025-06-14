@@ -17,7 +17,9 @@
   "item.rosia.purple_steel_wire": "Purple Steel Wire",
   "item.rosia.purple_steel_coil": "Purple Steel Coil",
 
+  "item.rosia.galvanic_cell": "Galvanic-Cell Electromagnet",
   "item.rosia.compressed_magnetite": "Compressed Magnetite",
+  "item.rosia.raw_magnet": "Raw Magnet",
   "item.rosia.magnet": "Magnet",
   "item.rosia.steel_grindstone": "Steel Grindstone",
   "item.rosia.steel_machine_die": "Steel Machine Die",
@@ -32,6 +34,10 @@
 
   "item.rosia.bullets": "Bullets",
   "item.rosia.rifle_ammo": "Rifle Ammo",
+
+  "item.rosia.trowel": "Trowel",
+  "item.rosia.brush": "Brush",
+  "item.rosia.prospecting_kit": "Prospecting Kit",
 
   "item.rosia.purple_steel_rifle": "Purple Steel Rifle",
   "item.rosia.purple_steel_tuyere": "Purple Steel Tuyere",
@@ -112,6 +118,7 @@
   "block.rosia.slate_path": "Slate Path",
 
   "block.rosia.machine_frame": "Machine Frame",
+  "block.rosia.magnetizer": "Magnetizer",
   "block.rosia.auto_quern": "Auto-Quern",
   "block.rosia.fire_box": "Fire Box",
   "block.rosia.mechanical_generator": "Mechanical Generator",
@@ -141,6 +148,7 @@
   "block.rosia.stirling_engine_slab": "Stirling Engine",
 
   "rosia.block_entity.machine_frame": "Machine Frame",
+  "rosia.block_entity.magnetizer": "Magnetizer",
   "rosia.block_entity.auto_quern": "Auto-Quern",
   "rosia.block_entity.fire_box": "Fire Box",
   "rosia.block_entity.mechanical_generator": "Mechanical Generator",

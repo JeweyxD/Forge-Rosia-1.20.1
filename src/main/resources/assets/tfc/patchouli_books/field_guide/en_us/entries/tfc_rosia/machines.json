@@ -4,6 +4,15 @@
   "icon": "rosia:auto_quern",
   "pages": [
     {
+      "type": "patchouli:text",
+      "text": "Several new machines aid in tedious, time consuming, and resource intensive processes."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/magnetizer",
+      "text": "The $(thing)Magnetizer$() is a machine used to magnetize raw magnets into permanent magnets."
+    },
+    {
       "type": "patchouli:crafting",
       "recipe": "rosia:crafting/blocks/auto_quern",
       "text": "The $(thing)Auto-Quern$() is a machine used to automatically grind items into powders and dyes."
