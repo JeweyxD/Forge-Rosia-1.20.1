@@ -19,7 +19,7 @@ import net.minecraft.world.level.block.Block;
 import org.jetbrains.annotations.NotNull;
 
 public class ProspectingKitItem extends Item {
-    public static final int DEPTH = -20;
+    public static final int DEPTH = -30;
     public static final int SHORT_DEPTH = DEPTH / 2;
     public static final int COOLDOWN = 10;
     public int[] grid = new int[]{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};

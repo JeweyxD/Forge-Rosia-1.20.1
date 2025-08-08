@@ -18,6 +18,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
@@ -199,6 +201,12 @@ public class RollingMachineBlockEntity extends TickableInventoryBlockEntity<Item
             if(pBlockEntity.progress > pBlockEntity.maxProgress) {
                 craftItem(pBlockEntity);
                 extractEnergy(pBlockEntity);
+                pLevel.playSound(null, pPos, SoundEvents.IRON_TRAPDOOR_OPEN,
+                        SoundSource.BLOCKS, 1F, 1);
+            }
+            if(pBlockEntity.progress == 1 || pBlockEntity.progress == 40 || pBlockEntity.progress == 80) {
+                pLevel.playSound(null, pPos, SoundEvents.PISTON_EXTEND,
+                        SoundSource.BLOCKS, 1, 1 + ((pLevel.random.nextFloat() - pLevel.random.nextFloat()) / 16));
             }
         } else {
             pBlockEntity.resetProgress();

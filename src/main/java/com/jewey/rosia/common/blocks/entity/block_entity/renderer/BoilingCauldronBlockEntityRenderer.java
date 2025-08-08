@@ -20,7 +20,7 @@ public class BoilingCauldronBlockEntityRenderer implements BlockEntityRenderer<B
         boiler.getCapability(Capabilities.FLUID).map(handler -> handler.getFluidInTank(0)).filter(fluid -> !fluid.isEmpty()).ifPresent(fluidStack -> {
             final float fillPercent = (float) fluidStack.getAmount() / boiler.getFluidStorage().getTankCapacity(0);
             final float subtract = fillPercent > 0.03 ? 0f : (0.03f - fillPercent) * 7f;
-            RenderHelpers.renderFluidFace(poseStack, fluidStack, buffer, 0.1875F + subtract, 0.1875F + subtract, 0.8125F - subtract, 0.8125F - subtract, 0.140625F + (0.75F - 0.015625F) * fillPercent, combinedOverlay, combinedLight);
+            RenderHelpers.renderFluidFace(poseStack, fluidStack, buffer, 0.1875F + subtract, 0.1875F + subtract, 0.8125F - subtract, 0.8125F - subtract, 0.875F * fillPercent, combinedOverlay, combinedLight);
         });
 
         //Render ingredient in world

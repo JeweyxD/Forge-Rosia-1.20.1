@@ -1,0 +1,17 @@
+{
+  "name": "Cooling Basin",
+  "category": "tfc:tfc_rosia",
+  "icon": "rosia:cooling_basin",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Cooling Basins$() allow for cooling multiple items at once; helpful for cooling molds, ingots, tool heads, etc."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "rosia:crafting/blocks/cooling_basin"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 22
+}

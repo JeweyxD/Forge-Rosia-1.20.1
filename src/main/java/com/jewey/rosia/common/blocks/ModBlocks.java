@@ -168,6 +168,11 @@ public class ModBlocks {
                     .blockEntity(ModBlockEntities.CHARCOAL_KILN_BLOCK_ENTITY)
                     .serverTicks(CharcoalKilnBlockEntity::serverTick)));
 
+    public static final Supplier<? extends Block> COOLING_BASIN = registerBlock("cooling_basin",
+            () -> new cooling_basin(ExtendedProperties.of(MapColor.METAL).strength(5f).requiresCorrectToolForDrops()
+                    .randomTicks().sound(SoundType.METAL).blockEntity(ModBlockEntities.COOLING_BASIN_BLOCK_ENTITY)
+                    .serverTicks(CoolingBasinBlockEntity::serverTick).noOcclusion()));
+
 
 
     // DON'T MAKE ITEMS FOR THE SUPPORT BEAMS IT SCREWS UP EVERYTHING!!!

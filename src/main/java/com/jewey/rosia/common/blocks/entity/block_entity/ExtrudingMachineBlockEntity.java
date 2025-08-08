@@ -4,11 +4,11 @@ import com.jewey.rosia.common.blocks.block.extruding_machine;
 import com.jewey.rosia.common.blocks.entity.ModBlockEntities;
 import com.jewey.rosia.common.container.ExtrudingMachineContainer;
 import com.jewey.rosia.common.items.ModItems;
-import com.jewey.rosia.config.RosiaConfig;
 import com.jewey.rosia.networking.ModMessages;
 import com.jewey.rosia.networking.packet.EnergySyncS2CPacket;
 import com.jewey.rosia.recipe.ExtrudingMachineRecipe;
 import com.jewey.rosia.util.ModEnergyStorage;
+import net.dries007.tfc.client.TFCSounds;
 import net.dries007.tfc.common.blockentities.TickableInventoryBlockEntity;
 import net.dries007.tfc.common.capabilities.PartialItemHandler;
 import net.dries007.tfc.common.capabilities.heat.HeatCapability;
@@ -19,6 +19,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
@@ -198,6 +200,12 @@ public class ExtrudingMachineBlockEntity extends TickableInventoryBlockEntity<It
             if(pBlockEntity.progress > pBlockEntity.maxProgress) {
                 craftItem(pBlockEntity);
                 extractEnergy(pBlockEntity);
+                pLevel.playSound(null, pPos, SoundEvents.IRON_TRAPDOOR_OPEN,
+                        SoundSource.BLOCKS, 1F, 1);
+            }
+            if(pBlockEntity.progress == 1 || pBlockEntity.progress == 40 || pBlockEntity.progress == 80) {
+                pLevel.playSound(null, pPos, SoundEvents.PISTON_EXTEND,
+                        SoundSource.BLOCKS, 1, 1 + ((pLevel.random.nextFloat() - pLevel.random.nextFloat()) / 16));
             }
         } else {
             pBlockEntity.resetProgress();

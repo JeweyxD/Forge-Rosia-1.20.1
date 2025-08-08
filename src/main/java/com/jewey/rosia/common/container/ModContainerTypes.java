@@ -97,6 +97,12 @@ public class ModContainerTypes {
             LAVA_BASIN = ModContainerTypes.<LavaBasinBlockEntity, LavaBasinContainer>registerBlock(
             "lava_basin", ModBlockEntities.LAVA_BASIN_BLOCK_ENTITY, LavaBasinContainer::create);
 
+    public static final RegistryObject<MenuType<CoolingBasinContainer>>
+            COOLING_BASIN = ModContainerTypes.<CoolingBasinBlockEntity, CoolingBasinContainer>registerBlock(
+            "cooling_basin", ModBlockEntities.COOLING_BASIN_BLOCK_ENTITY, CoolingBasinContainer::create);
+
+
+
     public static final RegistryObject<MenuType<LeatherSatchelContainer>>
             LEATHER_SATCHEL = registerItem("leather_satchel", LeatherSatchelContainer::create);
 

@@ -86,6 +86,9 @@ public class ModBlockEntities {
     public static final RegistryObject<BlockEntityType<LavaBasinBlockEntity>> LAVA_BASIN_BLOCK_ENTITY =
             register("lava_basin_block_entity", LavaBasinBlockEntity::new, ModBlocks.LAVA_BASIN);
 
+    public static final RegistryObject<BlockEntityType<CoolingBasinBlockEntity>> COOLING_BASIN_BLOCK_ENTITY =
+            register("cooling_basin_block_entity", CoolingBasinBlockEntity::new, ModBlocks.COOLING_BASIN);
+
 
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITY_TYPES.register(eventBus);

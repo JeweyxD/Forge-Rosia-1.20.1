@@ -13,7 +13,7 @@
       "tag": "forge:string"
     },
     "Z": {
-      "item": "minecraft:feather"
+      "item": "tfc:straw"
     }
   },
   "result": {

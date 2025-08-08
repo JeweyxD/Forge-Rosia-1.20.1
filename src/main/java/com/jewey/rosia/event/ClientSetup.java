@@ -31,6 +31,7 @@ public class ClientSetup {
         MenuScreens.register(ModContainerTypes.SCRAPING_MACHINE.get(), ScrapingMachineScreen::new);
         MenuScreens.register(ModContainerTypes.BOILING_CAULDRON.get(), BoilingCauldronScreen::new);
         MenuScreens.register(ModContainerTypes.LAVA_BASIN.get(), LavaBasinScreen::new);
+        MenuScreens.register(ModContainerTypes.COOLING_BASIN.get(), CoolingBasinScreen::new);
             //ITEM INVENTORY
         MenuScreens.register(ModContainerTypes.LEATHER_SATCHEL.get(), LeatherSatchelScreen::new);
         MenuScreens.register(ModContainerTypes.TOOL_BELT.get(), ToolBeltScreen::new);

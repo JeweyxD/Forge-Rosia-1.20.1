@@ -70,13 +70,13 @@ public class ModItems {
             () -> new Item(properties().durability(1000)));
 
     public static final RegistryObject<Item> STEEL_MACHINE_DIE = ITEMS.register("steel_machine_die",
-            () -> new Item(properties().durability(500)));
+            () -> new Item(properties().durability(1000)));
 
     public static final RegistryObject<Item> STEEL_ROLLERS = register("steel_rollers",
-            () -> new Item(properties().durability(500)));
+            () -> new Item(properties().durability(1000)));
 
     public static final RegistryObject<Item> STEEL_LOOM_PARTS = register("steel_loom_parts",
-            () -> new Item(properties().durability(500)));
+            () -> new Item(properties().durability(1000)));
 
     public static final RegistryObject<Item> SATCHEL_PART = register("satchel_part");
 
@@ -93,7 +93,7 @@ public class ModItems {
     public static final RegistryObject<Item> BRUSH = register("brush");
 
     public static final RegistryObject<Item> PROSPECTING_KIT = register("prospecting_kit",
-            () -> new ProspectingKitItem(properties().durability(100)));
+            () -> new ProspectingKitItem(properties().durability(600)));
 
     public static final RegistryObject<Item> BULLET = register("bullets");
 

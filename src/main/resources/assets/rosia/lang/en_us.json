@@ -144,6 +144,7 @@
   "block.rosia.scraping_machine": "Scraping Machine",
   "block.rosia.boiling_cauldron": "Boiling Cauldron",
   "block.rosia.lava_basin": "Lava Basin",
+  "block.rosia.cooling_basin": "Cooling Basin",
 
   "block.rosia.stirling_engine_slab": "Stirling Engine",
 
@@ -167,6 +168,7 @@
   "rosia.block_entity.scraping_machine": "Scraping Machine",
   "rosia.block_entity.boiling_cauldron": "Boiling Cauldron",
   "rosia.block_entity.lava_basin": "Lava Basin",
+  "rosia.block_entity.cooling_basin": "Cooling Basin",
 
   "entity.rosia.locomotive": "Locomotive",
   "rosia.entity.locomotive": "Locomotive",

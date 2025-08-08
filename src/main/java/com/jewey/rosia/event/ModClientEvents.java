@@ -1,10 +1,7 @@
 package com.jewey.rosia.event;
 
 import com.jewey.rosia.common.blocks.entity.ModBlockEntities;
-import com.jewey.rosia.common.blocks.entity.block_entity.renderer.BoilingCauldronBlockEntityRenderer;
-import com.jewey.rosia.common.blocks.entity.block_entity.renderer.CanningPressBlockEntityRenderer;
-import com.jewey.rosia.common.blocks.entity.block_entity.renderer.ElectricGrillBlockEntityRenderer;
-import com.jewey.rosia.common.blocks.entity.block_entity.renderer.MechanicalGeneratorBlockEntityRenderer;
+import com.jewey.rosia.common.blocks.entity.block_entity.renderer.*;
 import com.jewey.rosia.common.entities.ModEntities;
 import com.jewey.rosia.common.items.ModItems;
 import net.dries007.tfc.client.RenderHelpers;
@@ -37,6 +34,7 @@ public class ModClientEvents {
         event.registerBlockEntityRenderer(ModBlockEntities.BOILING_CAULDRON_BLOCK_ENTITY.get(), ctx -> new BoilingCauldronBlockEntityRenderer());
         event.registerBlockEntityRenderer(ModBlockEntities.MECHANICAL_GENERATOR_BLOCK_ENTITY.get(), ctx -> new MechanicalGeneratorBlockEntityRenderer());
         event.registerBlockEntityRenderer(ModBlockEntities.ELECTRIC_GRILL_BLOCK_ENTITY.get(), ctx -> new ElectricGrillBlockEntityRenderer());
+        event.registerBlockEntityRenderer(ModBlockEntities.COOLING_BASIN_BLOCK_ENTITY.get(), ctx -> new CoolingBasinBlockEntityRenderer());
 
         event.registerEntityRenderer(ModEntities.LOCOMOTIVE.get(), ctx -> new MinecartRenderer<>(ctx, RenderHelpers.modelIdentifier("chest_minecart")));
     }

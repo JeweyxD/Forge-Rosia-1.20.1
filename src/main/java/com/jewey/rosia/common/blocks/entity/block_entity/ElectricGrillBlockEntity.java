@@ -27,6 +27,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerData;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
@@ -256,7 +257,8 @@ public class ElectricGrillBlockEntity extends MultiblockBlockEntity implements M
     @Override
     public boolean isItemValid(int slot, ItemStack stack)
     {
-        return Helpers.mightHaveCapability(stack, HeatCapability.CAPABILITY) && Helpers.mightHaveCapability(stack, FoodCapability.CAPABILITY);
+        return Helpers.mightHaveCapability(stack, HeatCapability.CAPABILITY)
+                && (Helpers.mightHaveCapability(stack, FoodCapability.CAPABILITY) ||  stack.is(Items.STICK));
     }
 
     private void updateCachedRecipes()

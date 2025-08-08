@@ -233,7 +233,7 @@ public class MagnetizerBlockEntity extends TickableInventoryBlockEntity<ItemStac
     private static boolean canOutput(MagnetizerBlockEntity entity) {
         ItemStackHandler inventory = entity.inventory;
         boolean canInsertAmountIntoOutputSlot = inventory.getStackInSlot(1).getMaxStackSize() > inventory.getStackInSlot(1).getCount();
-        boolean canInsertItemIntoOutputSlot = inventory.getStackInSlot(0).getItem() == inventory.getStackInSlot(1).getItem()
+        boolean canInsertItemIntoOutputSlot = inventory.getStackInSlot(1).getItem() == ModItems.MAGNET.get()
                 || inventory.getStackInSlot(1).isEmpty();
         return canInsertAmountIntoOutputSlot && canInsertItemIntoOutputSlot;
     }
