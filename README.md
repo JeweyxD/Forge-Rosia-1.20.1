@@ -50,6 +50,7 @@
 ###### Prospecting Kit - A tool for precision prospecting
 ###### Electric Lantern - Cheap long-term lighting
 ###### Iron Support Beams - Support beams with 11x7x11 range
+###### Cooling Basin - Cool down hot metals faster
 
 #### New Advancements and Guidebook Entries
 ###### Rosia Advancement Tree - Guideline for progressing the mod
